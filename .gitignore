@@ -174,3 +174,4 @@ Pipfile.lock
 *.test.py
 
 data/
+*.jsonl
