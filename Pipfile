@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 boto3 = "*"
+json-stream = "*"
+json-stream-to-standard-types = "*"
 
 [dev-packages]
 black = "*"
