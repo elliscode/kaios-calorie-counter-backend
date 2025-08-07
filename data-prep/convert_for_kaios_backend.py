@@ -1,7 +1,6 @@
 import re
 import json
 import json_stream
-from titlecase import titlecase
 from json_stream_to_standard_types import to_standard_types
 
 # fat, carbs, protein, caffeine, alcohol
