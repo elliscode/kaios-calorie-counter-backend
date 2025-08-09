@@ -20,6 +20,9 @@ stupid_servings = [
     re.compile('GRM', re.IGNORECASE),
 ]
 servings_fix_these_phrases = [
+    {'find': re.compile(r'^(\d+)(g|gr|oz|onz|ml)$', re.IGNORECASE), 'replace': r'\1 \2'},
+    {'find': re.compile(r'oz serving.*', re.IGNORECASE), 'replace': 'oz'},
+    {'find': re.compile(r'\s+', re.IGNORECASE), 'replace': ' '},
     {'find': re.compile(r'\bz\b$', re.IGNORECASE), 'replace': 'oz'},
     {'find': re.compile(r'1 % COOKIES', re.IGNORECASE), 'replace': '1 cookie'},
     {'find': re.compile(r'2 ~3TSP', re.IGNORECASE), 'replace': '3 tsp'},
@@ -99,9 +102,10 @@ def my_titlecase(input_string):
 
 def parse_portion(q, p):
     q, p = inner_parse_portion(q, p)
+    p = p.strip("- ()|'\",.+/~}{][;")
     if not p:
         p = 'count'
-    return q, p.strip("- ()|'\",.+/~}{][;")
+    return q, p
 
 def inner_parse_portion(q, p):
     for bad_thing in servings_fix_these_phrases:
