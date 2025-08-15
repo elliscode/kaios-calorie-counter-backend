@@ -11,42 +11,136 @@ stupid_foods = [
 ]
 stupid_upcs = [
     '713733769433',
+    '3173282219297',
+    '8435070421486',
 ]
+bad_servings_upcs = {
+    '697658692796': '1 bar',
+    '031142105209': '1 Tablespoons',
+    '00016000363489': '1 roll',
+    '00846675010339': '1 bar',
+    '00019320001925': '2 packages',
+    '00012546012249': '1 stick',
+    '00044000009663': '2 cookies',
+    '00012546012256': '1 stick',
+    '751106000240': '1 piece',
+    '829262004263': '1 oat bar',
+    '076064051265': '1 cake',
+    '748703280311': '1 sope',
+    '859977002056': '30 g',
+    '860002410807': '1 cookie',
+    '722252238078': '1 brownie',
+    '835871130057': '1 bag',
+    '850029742067': '1 can',
+    '842595106626': '1 can',
+    '646670532207': '1 fillet',
+    '026883221059': '30 g',
+    '047792012361': '1/3 cup',
+    '011141087478': '1 shell',
+    '041331036139': '2 sardines',
+    '012900043186': '1 shell',
+    '038000123443': '1 waffle',
+    '644216323593': '1 semita',
+    '850000428058': '1 slice',
+    '710069107236': '1 smore',
+    '711381313329': '1/12 dry mix',
+    '711381312247': '1/9 dry mix',
+    '070896163745': '1/19 kit',
+    '070896163790': '1/27 kit',
+    '710069008205': '1 piece',
+    '855024004042': '2 bars',
+    '071429035065': '2 olives',
+    '045255118476': '2 half-inch slices',
+    '086700005163': '2 rolls',
+    '10693392005189': '2 bowties',
+    '7506244300744': '3 pops',
+    '778367517515': '3 canes',
+    '041466004782': '3 bon bons',
+    '038000256035': '3 waffles',
+    '038000017148': '3 waffles',
+    '720379504359': '3 count',
+    '00030800000658': '3 pops',
+    '850808005253': '10 pieces',
+    '030223033547': '1 sandwich',
+    '012265074641': '1 cookie',
+    '077890421727': '3/4 inch slice',
+    '077890419977': '1.25 inch slice',
+    '077890395905': '1.25 inch slice',
+    '077890352434': '1.25 inch slice',
+    '711381310090': '1 fl oz',
+    '711381326992': '1 fl oz',
+    '711381310076': '1 fl oz',
+    '850681003018': '1 link',
+    '077890371275': '3/4 inch slice',
+    '079621002571': '1 pan fried slice',
+    '018000486557': '3 fl oz',
+    '807444790418': '4 oz, raw',
+    '0041501008324': '2 taco shells',
+    '0039000008051': '2 taco shells',
+    '0710069806511': '2 Tablespoons',
+    '0710069806528': '2 Tablespoons',
+    '0710069806504': '2 Tablespoons',
+    '866176000011': '2 slices',
+    '7503022525016': '2 slices',
+    '078935005124': '2 slices',
+}
 stupid_servings = [
     re.compile('Guideline amount per fl oz of beverage', re.IGNORECASE),
     re.compile('Quantity not specified', re.IGNORECASE),
     re.compile('Guideline amount per cup of hot cereal', re.IGNORECASE),
     re.compile('N/A', re.IGNORECASE),
-    re.compile('GRM', re.IGNORECASE),
+    re.compile('None', re.IGNORECASE),
+    re.compile(r'^\(.*', re.IGNORECASE),  # leading parenthesis are STUPID
+    re.compile(r'^0+\D.*', re.IGNORECASE),  # zero values are STUPID
+]
+ignore_parsing_servings = [
+    re.compile(r'with\s+\d', re.IGNORECASE),
 ]
 servings_fix_these_phrases = [
-    {'find': re.compile(r'^(\d+)(g|gr|oz|onz|ml)$', re.IGNORECASE), 'replace': r'\1 \2'},
-    {'find': re.compile(r'oz serving.*', re.IGNORECASE), 'replace': 'oz'},
-    {'find': re.compile(r'\s+', re.IGNORECASE), 'replace': ' '},
-    {'find': re.compile(r'\bz\b$', re.IGNORECASE), 'replace': 'oz'},
-    {'find': re.compile(r'1 % COOKIES', re.IGNORECASE), 'replace': '1 cookie'},
-    {'find': re.compile(r'2 ~3TSP', re.IGNORECASE), 'replace': '3 tsp'},
-    {'find': re.compile(r'2\.1 /2"" SLICES', re.IGNORECASE), 'replace': '2 half-inch slices'},
-    {'find': re.compile(r'4/0.48 Bites', re.IGNORECASE), 'replace': '4 bites'},
-
-    {'find': re.compile(r'\d+\s*[\'\"]*\s*x\s*\d+\s*[\'\"]*', re.IGNORECASE), 'replace': ''},
-    {'find': re.compile(r'[(\[][^)]+[)\]]', re.IGNORECASE), 'replace': ''},
-    {'find': re.compile(r'(\d+)th\b', re.IGNORECASE), 'replace': r'\1'},
-    {'find': re.compile(r'about\s*', re.IGNORECASE), 'replace': ''},
-    {'find': re.compile(r'~\s*', re.IGNORECASE), 'replace': ''},
-    {'find': re.compile(r'Null\s*', re.IGNORECASE), 'replace': ''},
-    {'find': re.compile(r'About\s*', re.IGNORECASE), 'replace': ''},
-    {'find': re.compile(r'Approx\.*\s*', re.IGNORECASE), 'replace': ''},
-    {'find': re.compile(r'Seasons 2 tacos', re.IGNORECASE), 'replace': '2 tsp. mix'},
-    {'find': re.compile(r'onz', re.IGNORECASE), 'replace': 'oz'},
-    {'find': re.compile(r'oza', re.IGNORECASE), 'replace': 'fl oz'},
-    {'find': re.compile(r'\[([^]]+)]', re.IGNORECASE), 'replace': ''},
-    {'find': re.compile(r'\bdia[.]*\b', re.IGNORECASE), 'replace': 'diameter'},
-    {'find': re.compile(r'"+', re.IGNORECASE), 'replace': '"'},
-    {'find': re.compile(r'^1 \[$', re.IGNORECASE), 'replace': '1 packet'},
     {'find': re.compile(r'\u00BC', re.IGNORECASE), 'replace': '1/4'},
     {'find': re.compile(r'[^\u0020-\u007E]', re.IGNORECASE), 'replace': ''},
-
+    {'find': re.compile(r'^\s+', re.IGNORECASE), 'replace': ''},
+    {'find': re.compile(r'\s+$', re.IGNORECASE), 'replace': ''},
+    {'find': re.compile(r'\s+', re.IGNORECASE), 'replace': ' '},
+    {'find': re.compile(r'^About\s*', re.IGNORECASE), 'replace': ''},
+    {'find': re.compile(r'^Abt\.\s*', re.IGNORECASE), 'replace': ''},
+    {'find': re.compile(r'^Per\s*', re.IGNORECASE), 'replace': ''},
+    {'find': re.compile(r'^~', re.IGNORECASE), 'replace': ''},
+    {'find': re.compile(r'\s*\|.*$', re.IGNORECASE), 'replace': ''},
+    {'find': re.compile(r'\\(\D)', re.IGNORECASE), 'replace': r'\1'},
+    {'find': re.compile(r'^[+\-]\s*', re.IGNORECASE), 'replace': r''},
+    {'find': re.compile(r'^App?r?o?xi?m?a?t?e?l?y?\.?\s*', re.IGNORECASE), 'replace': ''},
+    {'find': re.compile(r'\(.*', re.IGNORECASE), 'replace': ''},
+    {'find': re.compile(r'\bz\.?$', re.IGNORECASE), 'replace': 'oz'},
+    {'find': re.compile(r'\bonz\.?$', re.IGNORECASE), 'replace': 'oz'},
+    {'find': re.compile(r'\boza\.?$', re.IGNORECASE), 'replace': 'fl oz'},
+    {'find': re.compile(r'/$', re.IGNORECASE), 'replace': ''},
+    {'find': re.compile(r'/.*\)$', re.IGNORECASE), 'replace': ''},
+    {'find': re.compile(r'(, |-)About.*', re.IGNORECASE), 'replace': ''},
+    {'find': re.compile(r', \d+ .*', re.IGNORECASE), 'replace': ''},
+    {'find': re.compile(r'[,.] per cont?a?i?n?e?r?\.?.*', re.IGNORECASE), 'replace': ''},
+    {'find': re.compile(r'\s*"+\s*', re.IGNORECASE), 'replace': '" '},
+    {'find': re.compile(r'\[Image of an? ([^]]+)]', re.IGNORECASE), 'replace': r'\1'},
+    {'find': re.compile(r'children.*', re.IGNORECASE), 'replace': ''},
+    {'find': re.compile(r'([0-9])\s*gr?a?m?s?\.?\s*$', re.IGNORECASE), 'replace': r'\1 g'},
+    {'find': re.compile(r'^gr?a?m?s?\.?$', re.IGNORECASE), 'replace': 'g'},
+    {'find': re.compile(r',?\s+\[?Makes?.*$', re.IGNORECASE), 'replace': ''},
+    {'find': re.compile(r'Makes.*', re.IGNORECASE), 'replace': ''},
+    {'find': re.compile(r'\\\s*(\d)', re.IGNORECASE), 'replace': r'/\1'},
+    {'find': re.compile(r',?\s+\[?Contains.*$', re.IGNORECASE), 'replace': ''},
+    {'find': re.compile(r'^[01]+$', re.IGNORECASE), 'replace': ''},
+    {'find': re.compile(r',?(\s*)frozen.*', re.IGNORECASE), 'replace': r'\1Frozen'},
+    {'find': re.compile(r"\s*'{2,}\s*", re.IGNORECASE), 'replace': r'" '},
+    {'find': re.compile(r"\s+fl?u?i?d?\.?\s*ou?n?c?e?s?z?\.?", re.IGNORECASE), 'replace': r' fl oz'},
+    {'find': re.compile(r"\s+oz\.?", re.IGNORECASE), 'replace': r' oz'},
+    {'find': re.compile(r",?\s+NF?S\s+.*$", re.IGNORECASE), 'replace': r''},
+    {'find': re.compile(r"\s+(pieces|pcs|pc's|pc)[,.)]*(\s*)", re.IGNORECASE), 'replace': r' pieces\2'},
+    {'find': re.compile(r"\s+Container.?\.?(\s*)", re.IGNORECASE), 'replace': r' container '},
+    {'find': re.compile(r"^(\d+)\s+,\s+(\D)", re.IGNORECASE), 'replace': r'\1 \2'},
+#     {'find': re.compile(r"^1\s*[\-),%.\s:*]+", re.IGNORECASE), 'replace': '1 '},
+    {'find': re.compile(r'^\s+', re.IGNORECASE), 'replace': ''},
+    {'find': re.compile(r'\s+$', re.IGNORECASE), 'replace': ''},
+    {'find': re.compile(r'\s+', re.IGNORECASE), 'replace': ' '},
 ]
 stupid_brands = [
     "Not A Branded Item".lower(),
@@ -59,10 +153,6 @@ brand_fixes = {
     "Psst...": "P$$t...",
     "Psst": "P$$t...",
     "Kellogg Company Us": "Kellogg Company",
-}
-serving_fixes = {
-    "Piecesq": "pieces",
-    "Stick | Null": "stick",
 }
 macros = {
     'Total lipid (fat)': 'fat',
@@ -83,10 +173,6 @@ macros = {
     'not-present-2': 'addedSugar',
 }
 
-leading_range_regex = re.compile(r"^(\d+)\s*-\s*(\d+)\b\s*([^(]*)")
-leading_irregular_fraction_regex = re.compile(r"^(\d+)[\s\-]+(\d+[\\/]\d+)\s+([^(]*)")
-leading_fraction_regex = re.compile(r"^(\d+\s*[\\/]\s*\d+)\s*([^(]*)")
-leading_numbers_regex = re.compile(r"^(\d*[,.]?\d+)\b\s*([^(]*)")
 apostrophe_s = re.compile(r"'S")
 whitespace = re.compile(r"\s+")
 acai_berry = re.compile(r"AA BERRY", re.IGNORECASE)
@@ -100,28 +186,61 @@ def my_titlecase(input_string):
     output = re.sub(two_as, "AA", output)
     return output
 
-def parse_portion(q, p):
-    q, p = inner_parse_portion(q, p)
-    p = p.strip("- ()|'\",.+/~}{][;")
-    if not p:
-        p = 'count'
-    return q, p
+# chat GPT sucks ass
+# def parse_portion(quantity_v, portion_string):
+#     # Helper: parse fractions like "1 3/4" or "3/4"
+#     def parse_fraction(s):
+#         s = s.strip()
+#         if ' ' in s:
+#             whole, frac = s.split(' ', 1)
+#             return float(whole) + parse_fraction(frac)
+#         if '/' in s:
+#             num, den = s.split('/')
+#             try:
+#                 return float(num) / float(den)
+#             except ValueError:
+#                 return None
+#         try:
+#             return float(s)
+#         except ValueError:
+#             return None
+#
+#     if not portion_string or not portion_string.strip():
+#         return None, "serving"
+#
+#     # Take only first portion before parentheses or commas
+#     first_part = portion_string.split('(')[0].split(',')[0].strip()
+#
+#     # Extract quantity (fraction or decimal)
+#     match = re.match(r'^\s*([\d\s\/\.]+)\s*(.*)$', first_part)
+#     if not match:
+#         return None, "serving"
+#
+#     qty_str, portion_v = match.groups()
+#     quantity_v = parse_fraction(qty_str)
+#
+#     # Clean portion text
+#     portion_v = portion_v.strip()
+#     portion_v = re.sub(r'^[^\w]+|[^\w]+$', '', portion_v)  # remove leading/trailing symbols
+#
+#     if not portion_v or not re.search(r'[A-Za-z]', portion_v):
+#         portion_v = "serving"
+#
+#     return quantity_v, portion_v
 
-def inner_parse_portion(q, p):
-    for bad_thing in servings_fix_these_phrases:
-        p = bad_thing['find'].sub(bad_thing['replace'], p)
-    output = leading_irregular_fraction_regex.match(p)
-    if output:
-        return float(output.group(1)) + eval(output.group(2).replace('\\', '/')), output.group(3).strip()
-    output = leading_range_regex.match(p)
-    if output:
-        return (float(output.group(1)) + float(output.group(2))) / 2.0, output.group(3).strip()
-    output = leading_fraction_regex.match(p)
-    if output:
-        return eval(output.group(1).replace('\\', '/')), output.group(2).strip()
-    output = leading_numbers_regex.match(p)
-    if output:
-        return float(output.group(1).replace(',', '.')), output.group(2).strip()
+decimal_regex = re.compile(r'^(\d*\.\d+)(.*)$', re.IGNORECASE)
+
+def parse_portion(q:float, p:str):
+    for phrase in servings_fix_these_phrases:
+        p = phrase['find'].sub(phrase['replace'], p)
+    if not p:
+        p = 'serving'
+    for phrase in ignore_parsing_servings:
+        if phrase.findall(p):
+            return q, p
+    return actually_parse(q, p)
+
+def actually_parse(q:float, p:str):
     return q, p
 
 def write_servings(input_servings: set):
@@ -181,6 +300,8 @@ with open("output_my_titlecase.jsonl", "w") as output_file:
             upc = item['gtinUpc']
             if upc in stupid_upcs:
                 continue
+            if upc in bad_servings_upcs.keys():
+                item['householdServingFullText'] = bad_servings_upcs[upc]
             if item['description'].lower() in stupid_foods:
                 continue
             skip = False
