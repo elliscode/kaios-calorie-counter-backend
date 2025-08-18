@@ -1,8 +1,8 @@
-1 100-calorie package (3 cakes)	3	cakes
+1 100-calorie package	3	cakes
 Juice of 1 grapefruit	1	juice of 1 grapefruit
-Juice of 1 lemon (2-1/8" dia)	1	juice of 1 lemon
-Juice of 1 lime (2" dia)	1	juice of 1 lime
-Juice of 1 orange (2-5/8" dia)	1	juice of 1 orange
+Juice of 1 lemon	1	juice of 1 lemon
+Juice of 1 lime	1	juice of 1 lime
+Juice of 1 orange	1	juice of 1 orange
 1 1/2 Cup	1.5	cup
 1 1/3 Cup	1.333	cup
 1 1/4 Cup	1.25	cup
@@ -13,55 +13,30 @@ Juice of 1 orange (2-5/8" dia)	1	juice of 1 orange
 0.167 Carton Makes 1/6 Carton Prepared	1	sixth of a carton
 0.167 Carton, Makes 1/6 Carton Prepared	1	sixth of a carton
 0,52 Onz	0.52	oz
-3 Tbsp (46G)	3	Tablespoons
 1/4 Cup (30G Kernels Plus Salt On Shell)*	0.25	cup
 1/4 Cup (30G Kernels)*	0.25	cup
 1/4 Cup (30G Kernels Plus Seasoning On Shell)*	0.25	cup
-1/4 Cup (61G)	0.25	cup
-1/4 Cup (30G)	0.25	cup
-1/4 Cup (28G)	0.25	cup
 2 Tbsp Mix (21G)Makes 1 Cookie	2	tablespoons
-3 Packs (33G)	3	packs
-3/4 Cup (29G)	0.75	cup
-3/4 Cup (28G)	0.75	cup
-27 Crackers (30G)	27	crackers
-31 Cookies (30G)	31	cookies
-1/2 Cup (30G)	0.5	cup
-2/3 Cup (30G)	0.6666666666666666	cup
-4 Cookies (31G)	4	cookies
-2/3 Cup As Pkgd (52G)	0.6666666666666666	cup
-51 Crackers (30G)	51	crackers
-48 Crackers (30G)	48	crackers
-3/4 Cup (56G)	0.75	cup
-1/3 Cup (30G)	0.3333333333333333	cup
-3 Tbsp Mix (23G)	3	Tablespoons
-1/4 Cup (27G)	0.25	cup
 2 Tbsp Mix (24G)Makes 1 Cookie	2	Tablespoons of mix
-1/2 Pizza (155G)	0.5	pizza
 5 -6 Dates	6	dates
-0.5 Package, (Makes 1 Cup Prepared)	0.5	package
+0.5 Package,	0.5	package
 3 Oz. Ham And 1/2 Tsp. Gaize	3	oz
-0.5 Package (Makes 1 Cup Prepared)	0.5	package
+0.5 Package	0.5	package
 5 To 6 Potatoes	6	potatoes
 0.5 Packet (1 G)**	0.5	packet
 6 -4 Pin Pcs	6	four pin pieces
-0.25 Tea Bag (Makes 8 Fl Oz Prepared)	0.25	tea bag
-0.042 Bottle (About 1/2 Tsp)	0.5	Tablespoon
+0.25 Tea Bag	0.25	tea bag
 3 " X 3" Piece	1	3 inch square piece
 200 Ml Naparu, 1 Tea Bag	1	tea bag
-0.25 Crust, (About 1/4 Cup Dry Mix)	0.25	cup dry mix
 1 4-Oz Cup	4	oz
 3 -5 Pieces	5	pieces
 8 Fl. Oz.,1 Tea Bag | Makes	1	tea bag
 2 Pieces W/ 2.5 Tsp. Of Icing	2	pieces
-0.5 Packet, (3.698G)** | About	0.5	packet
 2 -3 Second Dispense	3	seconds holding the dispenser
-0.125 Package, (Makes 8 Fl Oz)	0.125	package
+0.125 Package,	0.125	package
 2 Bites And 1/2 Packet Sauce	2	bites
 0.5 Oz Cracklins With 1 Tsp Salsa	0.5	oz
-2 Slices (1/4 Pie)	2	slices
-3 (18G)	3	mini canes
-0.1 Tsp Makes 8 Fl Oz (240Ml) | About	0.25	teaspoon
+2 Slices	2	slices
 0.25 Package, Makes 1/2 Cup	0.25	package
 2 Slices 3' Diameter	2	three inch diameter slices
 2 -4 Dates	4	dates
@@ -70,55 +45,1187 @@ Juice of 1 orange (2-5/8" dia)	1	juice of 1 orange
 2 Slices 3" Diameter	2	three inch diameter slices
 0.5 Cup / 125 Ml) | (	0.5	cup
 4 -5	5	onions
-4 Scoops (40 G)	4	scoops
 2 Tco Shells, 1/5 Packet Seasoning, 1/5 Packet Taco Sauce	2	taco shells
-0.05 Package (About 1 Tbsp Powder)	1	Tablespoon
 2Links	2	links
-1/2 Cup (130 G)	0.5	cup
-3/4 Cup (31G)	0.75	cup
-1 1/3 Cups (30G)	1.333	cup
-1/2 Cup (35G)	0.5	cup
-1/2 Cup (55G)	0.5	cup
-About 18 2-3 Inch Pieces	18	3 inch pieces
-1 1/3 Cup (84G) Frozen3/4 Cup Prepared	1.333	cup frozen
+1 1/3 Cup (84G) Frozen3/4 Cup Prepared	1.333	cup, frozen
 156 Milliliter/5.3 Fluid Ounce	5.3	fl oz
 1000 Milliliter/1.1 Liquid Quart	1	liter
 148 Milliliter/5 Fluid Ounce	5	fl oz
-5 Fl Oz (150 Ml)	5	fl oz
+5 Fl Oz	5	fl oz
 8 -10 Pieces	10	pieces
 2 1/4 Tsp	2.25	teaspoons
 1 3/10 Onz	1.3	oz
 .59 Onz	0.59	oz
 1 -4 Oz Cup	4	oz
-10 Cookies & About 4 Tbsp Icing	10	cookies
 Approx. 15 Crisps	15	crisps
 Approx. 14 Crisps	14	crisps
-About 15 Crisps	15	crisps
-About 16 Crisps	16	crisps
 Approx 15 Crisps	15	crisps
-2 Waffles (4 Waffle Bars)	2	waffles
+2 Waffles	2	waffles
 Approx. 16 Crisps	16	crisps
 Appox. 15 Crisps	15	crisps
-1/2 Cup (126G)	0.5	cup
-2 Oz Cooked (56G)	2	oz, cooked
-1/2 Cup (121G)	0.5	cup
-1/4 Tsp (0.8G)	0.25	teaspoon
-2 Oz (56G)	2	oz
-2 Sandwiches (92G)	2	sandwiches
-2 Sandwiches (91G)	2	sandwiches
-2 Sandwiches (84G)	2	sandwiches
-2 Tbsp (38G) Unpopped (Makes About 3 Cups Popped)	2	Tablespoons, unpopped
-1/2 Cup (130G)	0.5	cup
+1/4 Tsp	0.25	teaspoon
 1/2 Cup (120 Ml) Condensed Soup	0.5	cup
-1/2 Cup (120 Ml)	0.5	cup
-8 Fl. Oz. (240 Ml)	8	fl oz
-1/4 Cup (60 Ml)	0.25	cup
-1/4 Cup (60Ml)	0.25	cup
-8 Fl. Oz ( 240 Ml)	8	fl oz
-8 Fl. Oz. (240Ml)	8	fl oz
+1/2 Cup	0.5	cup
+8 Fl. Oz.	8	fl oz
+1/4 Cup	0.25	cup
+1/4 Cup	0.25	cup
+8 Fl. Oz	8	fl oz
+8 Fl. Oz.	8	fl oz
 Per 1 Cup	1	cup
-1/2 Cup (120Ml)	0.5	cup
-2 Tbsp (30 Ml)	2	Tablespoons
+1/2 Cup	0.5	cup
+2 Tbsp	2	Tablespoons
 1/2 Cup (120Ml) Condensed Soup	0.5	cup
-1/2 Cup Dry Mix (Makes 2 Muffins)	0.5	cup, dry mix
-1/16 Package (31G Mix)	0.0625	package
+1/2 Cup Dry Mix	0.5	cup, dry mix
+1/16 Package	0.0625	package
+1/10 Pkg	0.1	package
+1/16 Package	0.0625	package
+2 Tbsp Mix (25G)Makes 1 Cookie	2	Tablespoons, mix
+1/18 Pkg	0.05555555555555555	package
+3 Tbsp Mix (28G)Makes 2 Cookies	3	Tablespoons, mix
+3 Tbsp Mix (26G)Makes 2 Cookies	3	Tablespoons, mix
+3 Tbsp Mix (29G)Makes 2 Cookies	3	Tablespoons, mix
+1/16 Pkg	0.0625	package
+1/20 Pkg	0.05	package
+1/20 Package	0.05	package
+1/8 Crust	0.125	crust
+1/15 Pkg	0.06666666666666667	package
+1/16 Package	0.0625	package
+1/16 Package	0.0625	package
+3 Tbsp Mix (30G)Makes 1 Cookie	3	Tablespoons mix
+1/14 Package	0.07142857142857142	package
+1/16 Pkg	0.0625	package
+1/12 Package	0.08333333333333333	package
+1/8 Package	0.125	package
+1/20 Pouch (28G Mix)Makes 1 Brownie	0.05	pouch
+25G	2	units
+Serving	1	serving
+1 [Image Of A Pack] = 6 X 25G	1	pack
+Per Serving	1	serving
+Per Egg	1	egg
+11 G = 1 [Image Of An Oreo]	1	oreo
+25,5 G 6 [Image Of A Mikado King Choco Stick]	6	sticks
+Per Sachet	1	sachet
+2 X 32.5G Bars	2	bars
+Per Stick	1	stick
+Per Serving	1	serving
+25 G 10 [Image Of A Mikado Stick]	10	sticks
+25 G 11 [Image Of A Mikado Stick]	11	sticks
+8 Fl.Oz.	8	fl oz
+1/8 Pouch	0.125	pouch
+Amount Per Serving	1	serving
+4 Biscuits, Serving Contains 2/15 Cup Gluten Free Oats. | Contains:	4	biscuits
+1 1/3 Tbsp	1.3333333333333333	Tablespoons
+3 Falafel & 1 Tbsp Tahini	3	falafel
+1 -4 Oz	4	oz
+3 -1 Fl Oz Pops	3	pops
+1 - 1.72 Oz Cup	1.72	oz
+1 1/3 Cups	1.3333333333333333	cups
+Makes 8 Oza	8	oz, prepared
+Cup	1	cup
+Makes 1 Cup Prepared	1	cup, prepared
+1 1/2 Tsp	1.5	teaspoons
+1 2/3 Cup	1.6666666666666665	cups
+30 G Mix Or 2 Pancakes	2	pancakes
+2 Cookies/2 Biscuits	2	cookies
+1 -4 Oz Unit	4	oz
+3 Taco Shells, 1/4 Sauce + Seasoning	3	taco shells
+1 -6 Oz Unit	6	oz
+.75 Cup	0.75	cup
+1 , 5 Sardine	5	sardines
+1 2/3 Tbsp	1.6666666666666665	Tablespoons
+3 -4 Pieces	4	pieces
+1 \3 Bar	0.3333333333333333	bar
+4 -6 Spears	6	spears
+3 -4 Biscotti	4	biscotti
+1 '' X 4'' Piece	1	1 inch by 4 inch piece
+.5 Cup	0.5	cup
+1-1/2 Tsp	1.5	teaspoons
+Tbsp. Tbsp	1	Tablespoon
+3 Or 4 Pcs.	4	pieces
+3 Or 4 Pcs	4	pieces
+3 -4 Onions	4	onions
+2 Rolls, 0.75 Oz Per Roll	2	rolls
+3 Pieces Plus 2 Tbsp Sauce	3	pieces
+2 1/4 Cup	2.25	cup
+.3 Onz	0.3	oz
+3 -2"" Squares	3	2 inch squares
+1-2/3 Cup	1.6666666666666665	cup
+8 Fl. Oz. 1 Tea Bag | Makes	8	fl oz
+18 -20 Chips	20	chips
+13 -15 Chips | Per	15	chips
+18 -20 Chips | Per	20	chips
+.8 Onz	0.8	oz
+12 -13 Pieces	13	pieces
+.71 Onz	0.71	oz
+2 ~3Tsp	3	teaspoons
+1 1/2 Onz	1.5	oz
+1.5 "" Ball, 1 Cookie	1	1.5 inch ball
+2 2/3 Tbsp	2.6666666666666665	Tablespoons
+5 - 6 Pieces	6	pieces
+.88 Onz	0.88	oz
+3 -1/2 Oz Pieces	3	1/2 oz pieces
+3 "" X 3"" Pc	1	3 inch by 3 inch piece
++ 1 Coffee Capsule	1	coffee capsule
+2 Cookies28 G	2	cookies
+1 3/4 Cups	1.75	cups
+6 1/2 Tbsp	6.5	Tablespoons
+1/4 Tsp	0.25	teaspoons
+Per Can	1	can
+1/12 Pkg	0.08333333333333333	package
+1/16 Pkg (27G Bar & Crust Mix)Makes 1 Bar	0.0625	package
+1/9 Pkg	0.1111111111111111	package
+1/3 Cup Mix (41G)Makes 3 Pancakes	0.3333333333333333	cup, mix
+1/8 Cup Dough (2 Tbsp Mix 26G)Makes 1/2 - 3 1/2"" Cookie	0.125	cup, dough
+1/8 Cup Dough (2 Tbsp Mix 25G) Makes 1/2 - 3 1/2"" Cookie	0.125	cup, dough
+2Tbsp	2	Tablespoons
+1/15 Pkg	0.06666666666666667	package
+13 Pieces (30G) Per Serving	13	pieces
+.25 Ounces	0.25	oz
+8 Fl Oz	8	fl oz
+12 Fl Oz	12	fl oz
+16 Fl Oz	16	fl oz
+13 Pieces (30 G) Per Serving	13	pieces
+15 Pieces (30G) Per Serving	15	pieces
+16.9 Fl Oz (500 Ml) Per Serving	16.9	fl oz
+12 Fl Oz (360 Ml) Per Serving	12	fl oz
+14 Fl Oz	14	fl oz
+20 Fl Oz	20	fl oz
+1/3 Cup (45 G) Approx. Three 4"" Pancakes	0.3333333333333333	cup
+3-4 Pcs	4	pieces
+11-13 Pcs	13	pieces
+16.9 Fl Oz	16.9	fl oz
+10 Fl Oz	10	fl oz
+1Pc	1	piece
+.5 Ounces	0.5	oz
+8.4 Fl Oz	8.4	fl oz
+1/3 Cup Mix (46 G) Approx. Three 4"" Pancakes	0.3333333333333333	cup, mix
+15.2 Fl Oz	15.2	fl oz
+8 Fl Oz (240 Ml) Per Serving	8	fl oz
+20 Oz (591 Ml)Per 8 Fl Oz	20	oz
+17 Pieces (30 G) Per Serving	17	pieces
+1/4 Cup (40 G) Per Serving	0.25	cup
+1 1/4 Cup(15G) Cereal Alone	1.25	cup
+10 Fl Oz (296 Ml) Per Serving	10	fl oz
+1/2 Cup Dry (40 G) Per Serving	0.5	cup
+3/4 Cup (27G) Cereal Alone	0.75	cup
+8-10 Pcs	10	pieces
+1/4 Cup Mix (38 G / Approximately Three 4"" Pancakes) Dry Mix Alone	0.25	cup, mix
+12 Fl Oz (360 Ml)Per Serving	12	fl oz
+1/3 Cup Dry Couscous (56 G) As Packaged	0.3333333333333333	cup, dry
+3/4 Cup (28 G) Cereal Alone	0.75	cup
+11.2 Fl Oz	11.2	fl oz
+3/4 Cup(26G)Cereal Alone	0.75	cup
+2-3 Pcs	3	pieces
+20 Fl Oz (591 Ml) Per Serving	20	fl oz
+18.5 Fl Oz	18.5	fl oz
+3/4 Cup (27 G)Cereal Alone	0.75	cup
+4 Oz	4	oz
+7.5 Fl Oz	7.5	fl oz
+.25 Oz	0.25	oz
+11.6 Fl Oz	11.6	fl oz
+3/4 Cup (32 G) Cereal Alone	0.75	cup
+Per 1 Piece	1	piece
+15.2 Oz	15.2	oz
+2.5 Tbsp. (16G) Makes 1/8 Of 9"" Pie Shell	2.5	Tablespoons
+18 Pieces (30 G) Per Serving	18	pieces
+3/4 Cup (27 G) Cereal Alone	0.75	cup
+4Oz	4	oz
+10 Fl Oz (296 Ml)Per 8 Fl Oz	10	fl oz
+3/4 Cup (26 G)Cereal Alone	0.75	cup
+1/2 Cup Dry (40 G) Cereal Alone	0.5	cup, dry
+1-1/2 Cup (31 G) Cereal Alone	1.5	cup
+1/2 Cup Dry (40 G)Cereal Alone	0.5	cup, dry
+2.5 Tbs. (16G) Makes 1/8 Of 9"" Pie Shell	2.5	Tablespoons
+15.2 Fl Oz (450 Ml)Per Serving	15.2	fl oz
+3/4 Cup (56 G) Cereal Alone	0.75	cup
+3/4 Cup(26G) Cereal Alone	0.75	cup
+1/3 Cup Dry Couscous (56 G)As Packaged	0.3333333333333333	cup, dry
+2-4 Pcs	4	pieces
+8 Crackers (31G)	8	crackers
+15.2 Fl Oz	15.2	fl oz
+12 Fl. Oz.	12	fl oz
+6-8 Pcs	8	pieces
+6-13 Pcs	13	pieces
+5-7	7	curds
+6-9 Pcs	9	pieces
+10-17 Pcs	17	pieces
+5-6	6	chips
+6 Fl Oz	6	fl oz
+3	3	mini candy canes
+2 1/4 Cups	2.25	cups
+2 1/2 Cups	2.5	cups
+Fruit By The Foot: 1 Roll	1	roll
+1 1/4 Inch Ball Of Dough	1	1.25 inch ball of dough
+Pizza	1	pizza
+Per Bar	1	bar
+1 [Image Of A Flowpack With 2 Oreo's]	1	pack of 2 oreos
+2 Shells, 1 3/4 Tsp Seasoning Mix	2	shells
+2 Shells, 2 1/2 Tsp Seasoning Mix	2	shells
+1/4 Cup/Approximately 2-6 Inch Baked Tortillas	0.25	cup
+18 2-3 Inch Pieces	18	3 inch pieces
+10 Cookies & 4 Tbsp Icing	10	cookies
+2 Tbsp (38G) Unpopped	2	Tablespoons, unpopped
+2 -1 Inch Cubes |	2	1 inch cubes
+3.5 ; 2 Tbsps Unpopped (Makes 3 Cups Popped) | Servings Per Bag	2	Tablespoons, unpopped
+12 Slices, Sliced Turkey Pepperoni 2.5 Oz. Serving Size 12 Slices (30G), Servings Per Container 2	12	slices
+4 P3Ices |	4	pieces
+4.5 Tbsp (60 Ml) / Makes 12 Fl Oz	4.5	Tablespoons
+1 2/3 Tbsp (23G)/Makes 12 Fl Oz	1.6666666666666665	Tablespoons
+2 Tsp (9G) / Makes 12 Fl Oz	2	teaspoons
+39 Gram- 5 Cookies	5	cookies
+1 2/3 Tbsp (23G)/ Makes 12 Fl Oz	1.6666666666666665	Tablespoons
+2-2 Cracker Packets	2	two-cracker packets
+8 Fl Oz	8	fl oz
+Two 2-Cracker Packages	2	two-cracker packages
+Per 1/2 Bar	0.5	bar
+Per 1 Bar	1	bar
+12 Fl. Oz.	12	fl oz
+Per Container	1	container
+55 Pieces	55	pieces
+35 Pieces	35	pieces
+56 Pieces	56	pieces
+6 Cookies	6	cookies
+1/8 Pouch	0.125	pouch
+3 Cookies	3	cookies
+2 3/8 Inch Slice	2	3/8 inch slices
+Net Wt. 16.3 Oz.	1	can
+2 Cookies	2	cookies
+2 Tbsp	2	Tablespoons
+6 Cookies	6	cookies
+1/ Cup	1	cup
+Per Serving	1	serving
+2 Tortillas, 1/10 Packet Seasoning, 1/5 Of 1 Packet Taco Sauce	2	tortillas
+4 Potato Bites And 2 Tsp Sauce	4	potato bites
+7 (3 Inch) Pods	7	3 inch pods
+Conc. 2 Oza	2	fl oz
+8 Pieces (Chews)	8	pieces
+1 - 1.5 Oz Cup	1.5	oz
+1 /12 Package	0.08333333333333333	package
+1-1/2 Tbsp	1.5	Tablespoons
+2 Tortillas, 2 Tsp Seasoning, 1 Tsp Sauce Mix	2	tortillas
+8 Fl Oz, (240 Ml) | Makes	8	fl oz
+1 3/4 Cup	1.75	cup
+3 Oz. Ham And 1/2 Tsp Glaze	3	oz
+2 1/2 Cup	2.5	cup
+A 1 Inch Cube	1	1-inch cube
+1-1/2 Cups	1.5	cups
+2 -1/2"" Slices, Per Container	2	1/2-inch slices
+1 -6'' Tortillas	1	6-inch tortilla
+3 Oz Shrimp And 1 Oz Sauce	3	oz
+4 To 5 Olives |	5	olives
+1-1/4 Cup	1.25	cup
+.5 Onz	0.5	oz
+2 1/2 Onz	2.5	oz
+7 1/4 Onz	7.25	oz
+7 1/2 Onz	7.5	oz
+4 1/4 Onz	4.25	oz
+44 Pcs40 G	44	pieces
+4 -5 Crisps	5	crisps
+.5 Tsp	0.5	teaspoons
+1 - 1/4"" Slice	1	1/4-inch slice
+1 - 0.75"" Slice	1	3/4-inch slice
+1 } 1"" Slice) | ({	1	1-inch slice
+2 ) 0.75"" Slices | (	2	3/4-inch slices
+1 ) 1-0.25"" Slice | (	1	1/4-inch slices
+2 Ounces, Baguette, Package:8	2	oz
+1.75 Ounces 3	1.75	oz
+1.66 Cookies 9.5Oz	1.6666666666666665	cookies
+7 ""Long 1 1/4"" Diam.	1	7-inch long 1.25-inch diameter
+7 "" Long 1 1/4"" Diameter	1	7-inch long 1.25-inch diameter
+5 Shrimp, 105G Peeled	5	shrimp
+4 Slices, 0.375"" Thick Each	4	3/8-inch slices
+2 Ounces Net Wt. 16Oz	2	oz
+8 Pieces & 0.25 Trophy | Per	8	pieces
+.9 Onz	0.9	oz
+1 -4 Oz. Cup	4	oz
+5 ) 3/8""Slices | (	5	3/8-inch slices
+2 - 0.375"" Slice	2	3/8-inch slices
+3 )-3/8"" Slices | (	3	3/8-inch slices
+2 Skewers, ( 9 Shrimp) |	2	skewers
+3 Pieces With 0.33 Packet Of Sauce	3	pieces
+1 -2 Pieces	2	pieces
+4 Slices, 1/4"" Thick Each	4	1/4-inch slices
+5 Slices, 1 Lb. Pkg. 16 2 Lb. Pkg.	5	slices
+30 -36 Pieces	36	pieces
+1.5 I. Ball, 3,8 Cm	1	1.5-inch ball
+1.5 In. Ball, 3.8 Cm	1	1.5-inch ball
+2 , 1-Inch Cubes |	2	1-inch cubes
+1 ), 1.25 Slice | (	1	1.25-inch slice
+5 Disks, 5 Hearts, 5 Minis, 6 Balls, 6 Eggs Or 6 Leaves | Approx.	6	count
+20 -25 Pieces	25	pieces
+4 Mini Cupcakes Or 1/6 Of Package	4	mini cupcakes
+2 Cake Pops Or 1/7 Of Package	2	cake pops
+6 -7 Dates	7	dates
+1.6 Oz.) (Approx. 10.1 Servings/Pound) | (""	1.6	oz
+3 Oz. Of Shrimp (85G) And 1 Tbsp. Of Sauce	3	oz
+3 Pierogies160	3	pierogies
+5 Pc8.	5	pieces
+.64 Onz	0.64	oz
+8 Pieces, 0.5 Muffin	8	pieces
+3 -4 Pieces) | (	4	pieces
+.14 Onz	0.14	oz
+2 Cakes/1 Pkg	2	cakes
+1 4-Oz Unit	4	oz
+2 Pcs	2	pieces
+2 Pcs,	2	pieces
+10 Shrimp And 3 Tbs Sauce) | (	10	shrimp
+6 Dots	6	dots
+4 ) 1"" Slices | (	4	1-inch slices
+4 -5 Chews	5	chews
+4 1/2 Onz	4.5	oz
+8 Pieces & 1/4 Trophy	8	pieces
+8 Pieces & 0.25 Trophy	8	pieces
+4 Cups As Popped), Bag 3 | Unpopped, (Makes	4	cups
+2 Fl Oz, Recon. 8 Fl Oz (240Ml) | Conc.	2	fl oz
+8 Pieces (Cashews) 4 Stick Wraps	8	pieces
+13 -15 Chips, Portion	15	chips
+13 -15 Chips |	15	chips
+2 -3/4 Oz Appetizers	1.5	oz
+5 -7 Mushrooms	7	mushrooms
+4 -5 Pieces	5	pieces
+8 Pieces 4 Stick Wraps	8	pieces
+8 Pieces (Chews), 4 Stick Wrapes	8	pieces
+8 Pieces (Chews) 4 Stick Wraps	8	pieces
+3 -5 Olives) | (	5	olives
+2 Meatballs & 0.33 Cup Of Sauce	2	meatballs
+2 ) 1/2"" Slices | (	2	1/2-inch slices
+7 "" Long, 1 1/4"" Diameter	1	7-inch long, 1.25-inch diameter
+4 -5 Cookies	5	cookies
+3 "" X 3"" Piece	1	3-inch piece
+1-1/3 Cup	1.3333333333333333	cup
+2 ) 1.5"" Slices | (	2	1.5-inch slices
+1 ) 0.75"" Slice | (	1	3/4-inch slices
+5 -6 Pieces	6	pieces
+4 Pieces + 1 Tbsp Sauce	4	pieces
+4 Pieces With 1 Sauce Packet	4	pieces
+9 Pieces With 3/4 Tbsp Of Condiments	9	pieces
+1 -1"" Slice	1	1-inch slice
+9 -10 Pieces	10	pieces
+1 -0.75"" Slice	1	3/4-inch slice
+1 - 4Oz Cup	40	oz
+1 - 1/2"" Slice	1	1/2-inch slice
+6 -7 Pieces	7	pieces
+.35 Onz	0.35	oz
+14 Pieces With 2 1/4 Tsp Of Condiments	14	pieces
+18 Pieces With 2 1/4 Tsp Of Condiments	18	pieces
+3 Pieces With 2 Tbsp Of Sauce	3	pieces
+9 Pieces With 2 1/4 Tsp Of Condiments	9	pieces
+8 Crackers,	8	crackers
+2 , 1/2"" Slices	2	1/2-inch slices
+3 Pieces With 1.25 Tsp Of Condiments	3	pieces
+2 Cubes,	2	cubes
+4 Cups Popped, Servings Per Bag 3 | Unpopped Makes	4	cups, popped
+.25 Cup	0.25	cups
+8 Pieces (Chews), 4 Stick Wraps	8	pieces
+3 Oz With 1 Oz Sauce, 4 Pieces	3	oz
+3 Rolls + 1 Tbsp. Sauce	3	rolls
+4 -5 Crackers	5	crackers
+2 -3 Tbsp	3	Tablespoons
+2 -3 Biscotti	3	biscotti
+2-3 Tbsp	3	Tablespoons
+5 Slices, 8 Oz. Package: 4.5 Servings	5	slices
+.85 Onz	0.85	oz
+28 G/ A 1"" Cube) | (	1	1-inch cube
+8 -12 Pieces	12	pieces
+3 3/4 Onz	3.75	oz
+10 -11 Pieces	11	pieces
+3 1/2 Onz	3.5	oz
+3 2/5 Onz	3.25	oz
+1 1/4 Onz	1.25	oz
+3 3/4 Cup	3.75	cup
+3 1/5 Onz	3.2	oz
+.75 Onz	0.75	oz
+1-1/4 Tsp	1.25	teaspoons
+2 1/4 Tbsp	2.25	Tablespoons
+.53 Onz	0.53	oz
+.06 Onz	0.06	oz
+2 Cups Salad With 2 Tbsp Dressing	1	serving
+1-2/3 Tbsp	1.6666666666666665	Tablespoons
+1 1/5 Onz	1.2	oz
+3 X 3 In. Piece	1	3-inch piece
+1 3/4 Tsp	1.75	teaspoons
+8 1/4 Onz	8.25	oz
+1 1/4 Tsp	1.25	teaspoons
+3 -4 Pcs	4	pieces
+1-1/2 Cup	1.5	cups
+3 -4 Sprouts	4	sprouts
+3 3/4 Cups	3.75	cups
+2 -3 Pcs.	3	pieces
+1 1/2 Oza	1.5	fl oz
+6 -7 Crackers	7	crackers
+1 -1Oz Pouch	10	oz
+3 Tbsp Mis, Makes 12Oz (360Ml) Prepared	3	Tablespoons
+2 1/2 Tbsp	2.5	Tablespoons
+12 -13 Chips	13	chips
+4 1/3 Cup	4.333333333333333	cups
+1 -4Oz Cup	40	oz
+2-2/3 Cup	2.6666666666666665	cups
+2-3 Tsp	3	teaspoons
+1 -1/2 Inch Ball, 1 Cookie	1	1.5-inch ball
+1-1/3 Cups	1.3333333333333333	cups
+Abt. 1/2 Cup	0.5	cup
+2 To 3 Olives	3	olives
+8 3/4 Onz	8.75	oz
+1 -2 Cooked Strips	2	strips, cooked
+1 - 4.25 Onz	4.25	oz
+3 - 4 Figs	4	figs
+1 1/2 Cups	1.5	cups
+4 -5 Figs	5	figs
+3 Pieces Or 1 Oz	3	pieces
+1.5 Tbsp. Mix, Seasons 1 Cup	1.5	Tablespoons
+4 Oz Shrimp & 2 Oz Sauce	4	oz
+1 1/4 Cups	1.25	cups
+.25 Tsp	0.25	teaspoons
+1 -1/3 Cups |	1.3333333333333333	cups
+Makes 12 Onz	12	oz
+2 1/2 Tsp	2.5	teaspoons
+.85 Fl. Oz.	0.85	fl oz
+9 Pieces With 2.5 Tbsp Sauce	9	pieces
+3 C0 Okies	3	cookies
+8 1/2 Onz	8.5	oz
+4 -5 Cookies |	5	cookies
+.50 Onz	0.5	oz
+Makes 1/2 Cup	0.5	cup
+~1.1 Onz	1.1	oz
+8 Fl. Oz., 1 Tea Bag | Makes	8	fl oz
+4 -5 Dried Plums	5	dried plums
+2 Oz Drained	2	oz, drained
+3 Shells, 0.25 Seasoning+Sauce	3	shells
+2 3/4 Cups	2.75	cups
+12 Pickles, 1 Pak |	12	pickles
+2 Tortillas, 1/5 Packet Seasoning, 1/5 Packet Taco Sauce	2	tortillas
+2.5 Pieces With 0.333 Cup Syrup	2.5	pieces
+Makes Four 4 Inch Pancakes	4	4-inch pancakes
+2 Olives15 G	2	olives
+1 - 1.5Oz Cup	1.5	oz
+8 -10 Crackers	10	crackers
+1 -3/4"" Slice	1	3/4-inch slice
+2 -1"" Slices	2	1-inch slices
+1 -3/4' Slice	1	3/4-inch slices
+1 -1.5 Spears	1.5	spears
+4 - 1 Slices | Serving Size	4	slices
+2 -2"" Cookies	2	2-inch cookies
+146 G (1 Cup) Prepared | Dry Mix;	1	cup, prepared
+4 -5 Mushrooms	5	mushrooms'
+1.5 Package, 0.3 Cup Dry Mix	0.3333333333333333	cup, dry mix
+2 Slices, 0.25 Pizza	2	slices
+Makes 8 Fl. Oz.	8	fl oz
+1-4 Onz	4	oz
+2.1 /2"" Slices	2	1/2-inch slices
+1 1/3 Tbsp.	1.3333333333333333	Tablespoons
+5 - 6 Dates	6	dates
+2 -3 Halves	3	halves
+3 Pcs Cut 4""X4""	3	4-inch pieces
+2 To 3 Cloves	3	cloves
+2 Tortillas, 0.2 Packet Seasoning, 0.2 Packet Taco Sauce	2	tortillas
+2 Pcs, With 0.25 Cup Syrup.	2	pieces
+Tsp	1	teaspoon
+2-1/2 Cups	2.5	cups
+3 Pcs. + 0.25 Cup Syrup) | (	3	pieces
+1.5 Inch Ball, 1 Cookie	1	1.5-inch ball
+.6 Onz	0.6	oz
+2 -1 In Cubes |	2	1-inch cubes
+8 To 10 Slices	10	slices
+Seasons 1 Tbsp. Marinade	1	Tablespoon
+2 (Approx. 0.50 Inch) Slices	2	1/2-inch slices
+2 Tsp. Mix,	2	Tablespoons, mix
+1 2/3 Tsp	1.6666666666666665	teaspoons
+10 -11 Wafers	11	wafers
+4 -6 Pieces	6	pieces
+2 Tacos, 1/3 Packet Seasoning (6G), 1/3 Packet Taco Sauce	2	tacos
+5 To 6 Pieces	6	pieces
+14 Peanuts, 1 Individual Package	14	peanuts
+8 -10 Pcs |	10	pieces
+2 Pieces Approx 1.5"" X 1.5"" Each	2	pieces
+.99 Onz	1	oz
+.42 Onz	0.42	oz
+6 Biscuits, 1 Package	6	biscuits
+14 Pieces0	14	pieces
+.7 Onz	0.7	oz
+.84 Onz	0.84	oz
+7 -8 Pieces	8	pieces
+5 -6 Crackers	6	crackers
+1 3/4 Onz	1.75	oz
+6 Shrimp & 1 Tbsp Sauce	6	shrimp
+7 "" Long 1 1/4"" Diam.	1	7-inch long, 1.25-inch diameter
+4 Slices, 16Oz. Package	4	slices
+7 "" Long, 1.25"" Diameter Carrot	1	7-inch long, 1.25-inch diameter
+2 Slices 3 Diameter	2	3-inch diameter slices
+2 Slices, 3 Diameter	2	3-inch diameter slices
+2 Slices, 3"" Diameter	2	3-inch diameter slices
+1-1/3 Tbsp	1.3333333333333333	Tablespoons
+2 To 3 Beans	3	beans
+1 -2 Peppers	2	peppers
+1 -4Oz Unit	40	oz
+1 -4 Oz. Unit	4	oz
+7 Pieces With 1.5 Tbsp Sauce	7	pieces
+6 Pieces And 0.5 Pack Soup Base	6	pieces
+1 1/4 Tbsp	1.25	Tablespoons
+2 - 3/4 Oz. Appetizers	1.5	oz
+17 -23 Shrimp	23	shrimp
+1 -3 Pieces |	3	pieces
+2 4 In. Pancakes	2	4-inch pancakes
+5 Pieces & 1 Tbsp Sauce	5	pieces
+1 -1/3 Cups	1.3333333333333333	cups
+3 Potatoes Plus Liquid (165G) |	3	potatoes
+2 Cakes/ 1 Pkg.	2	cakes
+1/4 Cup Rice And 1 Tbsp Seasoning Mix	0.25	cup
+12 Slices, 1/12 Cake	12	slices
+7 "" Long 1 1/4 Diam.	1	7-inch long, 1.25-inch diameter
+10 , 1 Box | Containers Per Display	1	box
+18 - 24 Chips	24	chips
+2 Shells, 1/6 Sauce Pkt, 1 Tsp Seasoning	2	shells
+1 -6 Oz. Portion	6	oz
+6 Pieces + 2 Packets Of Sauce	6	pieces
+2 Shells, 1/9 Packet Seasoning, 1 Tbsp Taco Sauce	2	shells
+2 -3 Cookies	3	cookies
+1 24Oz Cup	24	oz
+2 Cubes	2	cubes
+7 Pieces And 0.5 Pack Soup Base	7	pieces
+1 1 Burrito	1	burrito
+2 - 3/4 Oz Appetizers	1.5	oz
+12 Mini Watfles96 G	12	mini waffles
+4 Mini Cupcakes Or 0.166Th Of Package	4	mini cupcakes
+3 (Sets Of 4) Waffles	3	waffles, set of 4
+12 Bottles Of 30Ml	12	bottles
+1 (Set Of 4) Waffle	1	waffle
+5 -6 Pieces | Per	6	pieces
+-1.1 Onz	1.1	oz
+2 Cookies, Approx. 11 Cookies	2	cookies
+2 Tsp. Mix	2	teaspoons, mix
+4 Pieces, Eggs 8 Pieces | Bunnyettes, Eastertoons	4	pieces
+2 Flour Tortillas, 1 Tbsp Taco Sauce, 1 Tsp Taco Seasoning	2	tortillas
+7 "" Long, 1/4"" Diameter	1	7-inch long, 1/4-inch diameter
+2 Waffles & 1 Topping Packet	2	waffles
+2 -4 Pieces	4	pieces
+.87 Onz	0.87	oz
+2 Rolls, 1.0 Oz Per Roll	2	rolls
+2 -3 Second Spray	3	second spray
+8 Crackers [1 Serving = 2 Full Cracker Sheets]	8	crackers
+500 Ml (2.1 Cups) | Per	2.1	cups
+6 , 4-Pin Pieces	6	4-pin pieces
+4 1/2 Cup	4.5	cups
+2 Tsp Dry [Seasons 1/4 Cup Sauce]	2	teaspoons, dry
+2 -3 Olives	3	olives
+2 Scoops, Makes 3 Pancakes	2	scoops
+2 Tsp. Mix	2	teaspoons, mix
+1 24 Onz	24	oz
+2 Oz Drained, 1/4 Cup	2	oz, drained
+.65 Onz	0.65	oz
+28 G/ A 1""Cube) | (	1	1-inch cube
+1 -1/3 Tbsp Dry Mix	1.3333333333333333	Tablespoons, dry mix
+3 -0.75 In	3	3/4-inch slices
+4 2/5 Onz	4.4	oz
+3 Taco Shells, 1/4 Taco Sauce, 1/4 Seasoning Packet	3	taco shells
+1 -1 Oz Pouch	1	oz
+3 Sets Of 4 Mini Waffles	3	waffles, set of 4
+1 -4 Oz Pkg	4	oz
+1	1	cake
+3 To 5 Pieces	5	pieces
+8 Pc Candy Flowers, 1/2 Tsp Yellow Icing, & 1/2 Tsp White Icing	8	pieces
+3 Tbsp Dry Mix Per Baked Portion For 1 Cupcake |	3	Tablespoons, dry mix
+2 Shells, 1/6 Sauce & Seasoning Pk.	2	shells
+1 -3 In. Sq. Piece	1	3-inch piece
+2 1/3 Cup	2.3333333333333335	cups
+Makes 3 - 4"" Pancakes	3	4-inch pancakes
+1 -1/2 Inch Ball 1 Cookie	1	1/2-inch ball
+3 -4 Nuggets	4	nuggets
+1 - 1 Oz Pouch	1	oz
+1-1 Onz	1	oz
+3 Tbsp., Makes 12Fl Oz (360Ml) |	3	Tablespoons
+2 -14G Packs	2	packs
+1- 4.25 Onz	4.25	oz
+1 1/10 Onz	0.1	oz
+2 Shells, 1/6 Sauce Packet, 1 Tsp Seasoning	2	shells
+3 Oz Shrimp & 2 Oz Sauce	3	oz
+7 Shrimp & 1.5 Tbsp Sauce	7	shrimp
+Makes 1/4 Cup	0.25	cup
+2 Sticks + 2 Tbsp Sauce	2	sticks
+Seasons 2 Tacos	2	tacos
+3 Shrimp And 2 Tbsp Sauce |	3	shrimp
+9 Shrimp And 2 Tbsp Sauce	9	shrimp
+2 Sticks + 1 1/3 Tbsp Sauce	2	sticks
+1 -1/4 Cups	1.25	cups
+2 Oz. 1 Pita | Approx	2	oz
+.25 Onz	0.25	oz
+~1 Onz	1	oz
+Makes 12 Fl. Oz.	12	fl oz
+71 G) 1/2 Pastry | (	0.5	pastry
+1.333 Tbsp Mix, 1/2 Tbsp Melted Wafers, 1/8 Tsp Salt	1.3333333333333333	Tablespoons, mix
+1 "" X 2"" Piece	1	1-inch by 2-inch piece
+1 3Oz Cup	3	oz
+11 Shrimp & 2 Tbsp Sauce	11	shrimp
+1 4/5 Onz	1.8	oz
+2 Per Packet), (1 Pkt. Sweetness Equal To 2 Tsp. Of Sugar) | (	0.5	packet
+.54 Onz	0.54	oz
+3 Pieces32 G	3	pieces
+2-4"" Pancakes	2	4-inch pancakes
+1/6 4 Onz	4	oz
+2 Sticks	2	sticks
+2 Tsp Dry	2	teaspoons dry mix
+1 1/3 Cup Cup	1.3333333333333333	cup
+5 -6 Pieces |	6	pieces
+Pan Fried	1	pan fried slice
+3 -4 Spears	4	spears
+3.2 0Z	3.2	oz
+3 Pieces W/ 1/2 Sauce Packet	3	pieces
+Makes 1 Cup	1	cup
+1 9/125 Onz	0.1111111111111111	loaf
+1 -1/4 Oz.	1.25	oz
+Pieces 43	43	pieces
+Per 1/3 Cup	0.3333333333333333	cup
+4 Pieces28 G	4	pieces
+3 1/2 Tbsp	3.5	Tablespoons
+42 Floz#3125 Ml	42	fl oz
+2 Tsp. Mix Makes 2 Tacos	2	Tablespoons mix
+4 Potstickers W/ 1/2 Sauce Packet	4	potstickers
+1,5 Onz	1.5	oz
+1 1/8 Tsp	1.125	teaspoons
+Approx. 1 Onz	1	oz
+4,9 Onz	4.9	oz
+3 4 Inch Pancakes	3	4-inch pancakes
+2 Oz56 G	2	oz
+Makes 12 Fl.Oz	12	fl oz
+4 -5 Crisps |	5	crisps
+1 2/3 Cups	1.6666666666666665	cups
+6 1/2 Onz	6.5	oz
+3 Servings Per 3Oz Bag 4 Pieces	4	pieces
+1 -1/4 Cups Chopped	1.25	cups
+3 -4 Olives	4	olives
+17 Pretzels 1 Onz	17	pretzels
+Raw 4 Onz	4	oz
+3 Oz. Drained	3	oz, drained
+Makes 2-4 1/2"" Pancakes	4	1/2-inch pancakes
+4 4"" Pancakes	4	4-inch pancakes
+2 Link $7	2	links
+4 -5 Dates	5	dates
+4 -5 |	5	crisps
+56.7 8.	0.125	dough ball
+Makes 1/2 Cup Prepared Slaw	0.5	cup
+12 Pieces With 2 Tbsp	12	pieces
+2 Tsp Mix	2	teaspoons mix
+Single Cup	1	single cup
+2 -3 Dates	3	dates
+3-4 Pieces	4	pieces
+6 53 Onz	6	sushis
+Approx.1 Stick	1	sticks
+17 Pieces And Sauce 1 Tbsp	17	pieces
+2 -1 Inch Balls Of Dough	2	1-inch dough balls
+3 Oz And Sauce 1 1/2 Tbsp	3	oz
+3 Pieces And 1 Tbsp Sauce	3	pieces
+2 Tbsp Mix + 1/2 Tsp Topping Makes 1 Bite Prepared	2	Tablespoons mix
+Makes 2 Muffins	2	muffins
+Makes 2 Cookies	2	cookies
+3 Tbsp Mix Makes 2 Cookies	3	Tablespoons mix
+Makes 1 Ball	1	ball
+3 -4 Cookies	4	cookies
+Approx. 1/3 Cup	0.3333333333333333	cup
+Makes A 31 G Cookie	1	cookie
+2 X2 Square	1	2-inch square
+30 Chips And 2 Tbsp. (35G) Cheese |	30	chips
+Amount/Serving	1	serving
+Children 1 Through 3 Yrs	1	pouch
+2 Pouches	2	pouches
+8Oz	8	oz
+Per Tube	1	tube
+Per Bag	1	bag
+6.75Floz	6.75	fl oz
+2/3 Cup (87G) Frozen1/2 Cup Prepared	0.6666666666666666	cup, frozen
+1 - 4 Oz. Cup	4	oz
+4 - 6 Spears	6	spears
+3.5 Tbsp (50Mls) Concentrate Plus 200Mls Water (Makes 1 Cup Prepared) (8 Fl Oz) |	3.5	Tablespoons
+6 Slices 8 Oz. Package: 4.5 Servings 16 Oz. Package:	6	slices
+2 "" X 2"" Piece	1	2-inch piece
+1 ) 1 1/4"" Slice | (	1	1.25-inch slice
+2.5 "" X 5.5"" Slice	1	2.5-inch by 5.5-inch slice
+3.5 Tbsp (50Mls) Concentrate Plus 200Mls Water (Makes 1 Cup Prepared) |	3.5	Tablespoons
+2 Ribs, 4 Oz. Edible Portion |	2	ribs
+1.333 Tbsp. Mix	1.3333333333333333	Tablespoons mix
+3 Hushpuppies52 G	3	hushpuppies
+3 Tbsp. Mix Makes 2-2"" Cookies	3	Tablespoons mix
+Aprx.4 Onz	4	oz
+2 X 2 Piece	1	2-inch piece
+Per 4 Tbsp	4	Tablespoons
+3 4/5 Onz	3.8	oz
+1 0Z	1	oz
+Seasons 14 Fries	14	fries
+5 Dates Diced Dates 1.4 Oz	5	dates
+2 3/10 Onz	2.3	oz
+3 Taco Shells, 1/4 Sauce, 1/4 Sesaoning Packet	3	taco shells
+4 Pieces And 1/4 Sauce Packet	4	pieces
+2 Samosas & 2 Tsp Sauce	2	samosas
+2 Cakes/1 Pkg.	2	cakes
+10 -16 Pieces	16	pieces
+1 - 1/4 Tsp	1.25	teaspoons
+9 Pretzels120	9	pretzels
+4 Nuggets65 G	4	nuggets
+1 -2.5 Oz Unit	2.5	oz
+2 1/3 Onz	2.3333333333333335	oz
+57 G-2 Minis	2	minis
+2.2 Oz Drained 1/4 Cup	2.2	oz, drained
+28 G/1""Cube	1	1-inch cube
+8 Cookies & 3.5 Tbsp Icing	8	cookies
+6 Pieces; 7 Oz. Package: 7 Servings	6	pieces
+Makes 1/2 Cup Prepared	0.5	cup prepared
+10 -11 Chips	11	chips
+10. 5 Onz	10.5	oz
+2 -3 Heaping Tablespoons	3	tablespoons
+Makes 16 Oz Prepared	16	oz prepared
+1 0Z.	1	oz
+4 3/10 Onz	4.3	oz
+4 Crackers And 1/4 Spread	4	crackers
+Aprox. 1 Cup	1	cup
+4 Bags Per Container 3 Servings Per 3Oz Bag	4	bags
+4 Pieces33 G	4	pieces
+3 1/2 Cups	3.5	cups
+2 -1/2 Pieces	2	1/2-inch pieces
+1 1/8 Cup	1.125	cup
+5 0Z	5	oz
+Approx. 8 Onz	8	oz
+3Oz	3	oz
+4 Ounce/112 Gram	4	oz
+2 Tbsp Unpopped	2	Tablespoons
+17 Pieces30 G	17	pieces
+Makes 6 Fl Oz Prepared	6	fl oz, prepared
+3 1/4 Tsp	3.25	teaspoons
+Per 5 1/2 Cups	5.5	cups
+2 -3 Pieces) | (	3	pieces
+18 / Packet	8	fl oz, prepared
+8 Crackers	2	full cracker sheets
+8 Cracker	2	full cracker sheets
+Children 1 Through 3 Years: 1 Pouch	1	pouch
+Infants Through 12 Months: 1 Pouch	1	pouch
+14 Package Makes 1/2 Cup	0.5	cup, prepared
+Dry Milk	1	cup, prepared
+4,7 Onz	4.7	oz
+2 4-Inch Pancakes	2	4-inch pancakes
+4 -5 Prunes	5	prunes
+5 -6 Apricots	6	apricots
+7 -8 Apricots	8	apricots
+Makes 1 Cup Cooked Rice	1	cup, prepared
+Or 1 Brownie	1	brownie
+2 7/10 Onz	2.7	oz
+8 Fl Oz) 0.125 Packet | (Makes	0.125	packet
+12 Fluid Ounce/360 Milliliter	12	fl oz
+One Tail	1	tail
+3.75 Cup Frozen 2/3 Cup Prepared	3.75	cup, frozen
+3 Tbsp Dry Mix 1/6 Package	3	Tablespoons dry mix
+7 Shrimp140 G	7	shrimp
+4 1/4 Cups	4.25	cups
+10 1/4 Onz	10.25	oz
+1-3/4 Cups	1.75	cups
+Reconstituted To 1 Cup	1	cup, prepared
+12 Pc40 G	12	pieces
+2,6 Onz	2.6	oz
+12 Floz355 Ml	12	fl oz
+1 -1" Slice	1	1-inch slice
+4 1/2 Cups	4.5	cups
+3.667 Tbsp [Thickens 4 Fl Oz Water To Nectar]	3.6666666666666665	Tablespoons
+2-1 Inch Cubes	2	1-inch cubes
+2 Cups 28-	2	cups
+3 Servings Per Bag, 2 Tbsp Unpopped (Makes 4.5 Cups Popped) |	2	Tablespoons, unpopped
+3 Oz Dry Mix 1 Cup Prepared	3	oz dry mix
+3 1/2 Tsp.	3.5	teaspoons
+5 Potatoes148 G	5	potatoes
+3 Potatoes148 G	3	potatoes
+4" By 2" Piece	1	4-inch by 2-inch piece
+4 4/5 Onz	4.8	oz
+1 -1/2 Cups	1.5	cups
+4 Pretzels & 2 Tbsp Beer Cheese	4	pretzels
+2 1/3 Tbsp	2.3333333333333335	Tablespoons
+4 -5 Croutons	5	croutons
+4 Oz, Cooked 3Oz (84G) | Raw	4	oz raw
+3 -5 Pcs	5	pieces
+1.9 0Z	1.9	oz
+8 Floz240 Ml	8	fl oz
+1-2 Tbsp	2	Tablespoons
+1.333 Tbsp	1.3333333333333333	Tablespoons
+1 -4 Oz.	4	oz
+1 2/3 Tbsp.	1.6666666666666665	Tablespoons
+18 -20 Pcs	20	pieces
+2 Tablespo0	2	Tablespoons
+21 1/10 Onz	21.1	oz
+2 3/4 Inch Long	1	2.75-inch long sausage
+4 Pieces32 G	4	pieces
+3 Tbsp Dry Mix Makes 1 Cookie	3	Tablespoons dry mix
+1 13/20 Onz	1	bun
+3 -5 Olives	5	olives
+2 2/3 Cup	2.6666666666666665	cup
+1 / 6 Pie	0.16666666666666666	pie
+6,76 Oza	6.76	oz
+3 Slices	3	slices
+6 -8 Pcs	8	pieces
+6 -7 Prunes	7	prunes
+1 / 8 Cake	0.125	cake
+2 Tbsps Unpopped	2	Tablespoons unpopped
+3 Polatoes148 G	3	potatoes
+3 Tbsp Dry Mix (Makes 1 Cup Prepared) |	3	Tablespoons dry mix
+5 -6 Cloves	6	cloves
+2 Pancakes	2	pancakes
+2 Tbsp Unpopped (Makes 3 Cups Popped) Servings Per Bag 3	2	Tablespoons unpopped
+2-2/3 Cups	2.6666666666666665	cups
+3 -4 Potatoes	4	potatoes
+3 1/2 Cup	3.5	cup
+4 5/6 Onz	4.833333333333333	oz
+2 Tbsps Unpopped (Makes 3 Cups Popped) Servings Per Box 42	2	Tablespoons unpopped
+10 2 Tbsps Unpopped (Makes 3 Cups Popped) | Serving Per Box	2	Tablespoons unpopped
+1.333 Frozen 1 Cup Prepared	1.3333333333333333	cups, frozen
+4 3/4 Cup	4.75	cup
+4 1/4 Cup	4.25	cup
+2 1/10 Onz	2.1	oz
+7 -8 Hearts |	8	hearts
+1 1/16 Cup	1.0625	cup
+2 - 3 Pieces	3	pieces
+1.4 Oz) Appr. 5 Pieces | (~	5	pieces
+1.4 Oz) Appr. 13 Pieces | (~	13	pieces
+1.4 Oz) Appr. 6 Pieces | (~	6	pieces
+~1.4 Onz	1.4	oz
+5 Pieces (~1.4 Oz.) | Approx.	5	pieces
+1.4 Oz) Appr. 20 Pieces | (~	20	pieces
+1.4 Oz) Appr.7 Pieces | (~	7	pieces
+4 Pieces	4	pieces
+4 Pieces, Per 18.4Oz Canister	4	pieces
+5 Drops Per 8 Oz. Of Liquid Or To Taste	5	drops
+2 Tbsp Of Package (Makes 1 Cup Prepared) |	2	Tablespoons
+4 Pcs 12Ct Lobster Ravioli	4	pieces
+5 G, 1 Teaspoon) | (	1	teaspoon
+6 -8 Olives	8	olives
+2 Pancakes	2	pancakes
+3 -4 Pieces |	4	pieces
+1/2 Tsp	0.5	teaspoon
+1/2 Tsp	0.5	teaspoon
+1/2 Tsp	0.5	teaspoon
+1 -2 Pieces Drained	2	pieces, drained
+4 Tsp Makes 8 Fl Oz |	4	teaspoons
+3 -5 Bottoms	5	bottoms
+4 -5 Hearts	5	hearts
+2 Shells, 1/6 Packet Seasoning, 1/6 Packet Taco Sauce	2	shells
+4 Oz Shrimp Without Tails, 15 Shrimp	4	oz shrimp
+/3 Cup	0.3333333333333333	cup
+Makes 16.9 Oza	16.9	oz, prepared
+2 1/2 Pickles	2.5	pickles
+4 1/10 Onz	4.1	oz
+2 1/2 Cups Dressed Salad With Toppings	2.5	cups
+2 1/2 Tbsp. Dip	2.5	Tablespoons
+C	1	cup
+2 -6 Dates	6	dates
+1 3/5 Onz	1.6	oz
+5 Tbsp. Pancake Dry Mix + 1 1/3 Tbsp. Topping Dry Mix, Makes 2 Pancakes |	5	Tablespoons dry mix
+1 -2 Pieces, Drained	2	pieces
+3 Oz Shrimp Without Tails 9 Shrimp	3	oz shrimp
+1.5 Cups Ready To Cook (Makes 1 Cup Cooked) |	1.5	cups, raw
+3 Sheets (3X18G) Dry	3	sheets
+2 4/5 Onz	2.8	oz
+10 -12 Pcs	12	pieces
+6 Biscuits35 G	6	biscuits
+2 Fl. Oz. Recon. 8 Fl. Oz. (240Ml) | Conc.	2	fl oz
+Makes 12 Oza	12	oz, prepared
+2 Sliders129 G	2	sliders
+7 1/5 Onz	7.2	oz
+10 1/10 Onz	10.1	oz
+4 Scoops Makes 1 Cup Prepared	4	scoops
+1 -3 Slices	3	slices
+8 Pieces With 4 Sauce Packets	8	pieces
+8 Cookies & 3 Tbsp. Icing	8	cookies
+5 1/2 Onz	5.5	oz
+2 Sandwiches + 1/3 Sauce Packet	2	sandwiches
+2 2/5 Onz	2.4	oz
+1.25" Diameter	1	1.25-inch diameter
+7-9 Shrimp	9	shrimp
+9 1/2 Onz	9.5	oz
+5 4/5 Onz	5.8	oz
+2.5 Oz Dry Mix ( 1/2 Box)	2.5	oz dry mix
+3 3/10 Onz	3.3	oz
+5 -7 Pcs	7	pieces
+3 1/4 Onz	3.25	oz
+4 3/8 Onz	4.375	oz
+4 3/4 Onz	4.75	oz
+1.25 Cups Frozen, 1 Cup Prepared	1.25	cups, frozen
+2 Oz Salmon 2 Slices	2	oz
+4 Oz Raw113 G	4	oz, raw
+1 / 24Th Pkg. Dry	0.041666666666666664	package
+Makes 12.87 Oz Prepared	12.87	oz, prepared
+3 Pieces + 2 Tbsp Sauce	3	pieces
+2.5 0Z	2.5	oz
+4 -5 Cookes	5	cookies
+4 1/2 Tbsp	4.5	Tablespoons
+3 Level Scoops	3	scoops
+13 Shrimp & 2 Tbsp Sauce |	13	shrimp
+3 -4 Prunes	4	prunes
+MLT	1	can
+12 Fluid Ounces/360 Milliliter	12	fl oz
+8 Fluid Ounce/237 Milliliter	8	fl oz
+28G	2	slices
+7 Shrimp & 2 Tbsp Sauce	7	shrimp
+3 Tbsp Mix Makes 2 Gingerbread Cookies	3	Tablespoons
+1 1/3 Tbsp. Mix	1.3333333333333333	Tablespoons mix
+1 2-1/4" dia	1	2.25-inch diameter cookie
+1 1-inch stack	1	1-inch stack
+1-3 ring thin pretzel	1	pretzel
+1-3 ring thick pretzel	1	thick pretzel
+Per Serving	1	serving
+1 100-calorie package	1	100-calorie package
+Juice of 1 lemon	1	juice of 1 lemon
+Juice of 1 lime	1	juice of 1 lime
+0.5 Packet, (3.698G)** |	0.5	packet
+0.1 Tsp Makes 8 Fl Oz (240Ml) |	0.1	teaspoons
+0.125 Packet (0.856)**	0.125	packet
+0.042 Bottle, 1/2 Tsp	0.5	teaspoon
+0.5 Cup Pkgd; 1 Cup Prepared	0.5	cup
+0.5 Pouch Mix, Makes 1 Cake	0.5	pouch mix
+0.1 Package, 1/4 Cup Dry	0.25	cup dry
+0.125 Packet (1G)**	0.125	packet
+0.5 .5 Pack	0.5	pack
+0.5 Package, 1 Cup Prepared	0.5	package
+0.067 Package, 1/4 Cup Dry Mix	0.25	cup dry mix
+0.5 Cup Dry Mix Makes 3/4 Cup Prepared	0.5	cup dry mix
+0.12 Of 9"" Crust	0.125	crust
+0.25 Package, Makes 1 Cup Prepared	0.25	package
+0.5 Cup (130G) | Makes	0.5	cup
+0.25 Package, Makes 0.5 Cup	0.25	package
+0.5 C As Pkgd, 1.25 C Prepared	0.5	package
+0.083 Package - 1/3 Cup Dry Mix	0.3333333333333333	cup dry mix
+0.25 Package Makes 1/2 Cup	0.25	package
+0.1 Mix, 1/10 Prepared Cake	0.1	package
+0.1 Pkg, 1/10 Prepared Cake	0.1	package
+0.167 Package, Makes 1/2 Cup Prepared	0.16666666666666666	package
+0.5 Packet, Makes 8 Fl.Oz.	0.5	packet
+0.5 Packet, Makes 8 Fl Oz.	0.5	packet
+0.25 Packet, Makes 1/2 Cup	0.25	packet
+0.0833 Dry Mix* Or One Prepared Slice (65G)**	0.08333333333333333	dry mix
+0.0625 Th Dry Mix Or One 2"" Brownie Prepared (34G)**	0.0625	dry mix
+0.25 Of Package, Makes 1/2 Cup	0.25	package
+0.333 Of Package, Makes 0.5 Cup	0.3333333333333333	package
+0.25 Package, 0.166 Cup	0.25	package
+0.2 Pkg = 1 Cup Prepared	0.2	package
+0.5 Cup Packaged Makes 1 Cup Prepared	0.5	cup
+0.125 Package, Makes 1/2 Cup	0.125	package
+0.125 Packet, Makes 8 Fl Oz	0.125	packet
+0.125 Of 1 Crust	0.125	crust
+0.25 Package, 1/6 Cup	0.25	package
+0.083 Dry Mix, 1 Cupcake	0.08333333333333333	dry mix
+0.08 Dry Mix, 1 Cup Cake	0.08333333333333333	dry mix
+0.5 Cup (125G) | Makes	0.5	cup
+0.5 Pita, Per 5 Pitas	0.5	pita
+0.125 Cap, Makes 8 Fl. Oz.	0.125	cap
+0.5 Scoop, (Makes 8 Fl Oz) | O	0.5	scoop
+0.062 Bottle, 1/2 Tsp	0.5	teaspoon
+0.25 Package, 1 Serv As Packaged	0.25	package
+0.125 Packet, Coats 1 Piece	0.125	packet
+0.167 Box Makes 1/2 Cup	0.16666666666666666	box
+0.75 Scoop, Makes 12 Fl Oz	0.75	scoop
+0.05 Package, 2 Cookies	2	cookies
+0.167 Package, 2 Taco Shells, 1 Tbsp Mild Sauce, 2 Tsp Taco Seasoning	0.16666666666666666	package
+0.2 Package (2 Flour Tortillas, 1 1/3 Tbsp Mild Sauce, 2 Tsp Taco Seasoning) Makes 2 Tacos	0.2	package
+0.75 Cup Frozen, 1/2 Cup Prepared	0.75	cup frozen
+0.5 Package, Serving Per Package 2	0.5	package
+0.0625 Package, Makes 1/2 Cup	0.0625	package
+0.056 Pkg, 2 Cookies	2	cookies
+0.083 Pkg, 2 Cookies And 1 Tsp Frosting)	0.08333333333333333	package
+0.111 Bag ( 1/2 Cup) |	0.1111111111111111	bag
+0.333 Cup Dry Mix 1/3 Cup Prepared	0.3333333333333333	cup dry mix
+0.25 Cup Hulled Seeds Or 1/3 Cup Seasoned Seeds In Shell |	0.3333333333333333	cup seeds in shell
+0.125 Pouch, Makes 1/4 Cup	0.125	pouch
+0.083 Carton, Makes 1 Cookie Ball	0.08333333333333333	carton
+0.083 Of Recipe Dry Mix Or 1 Frosted Cupcake	0.08333333333333333	dry mix
+0.5 Pack, Makes 12 Fl Oz	0.5	pack
+0.25 Package, 1/2 Cup Prepared	0.25	package
+0.091 Package, 1/4 Cup Mix	0.25	cup mix
+0.111 Kit Packaged, 2 Decorated Cookies	0.1111111111111111	kit
+3 Tbsp. Mix + 1 1/4 Tsp Chips	3	Tablespoons mix
+0.055 Dry Mix Makes 1 Cupcake Or Cake Slice	0.05	dry mix
+0.033 Of Recipe 15G	0.03333333333333333	recipe
+0.062 Of Recipe Dry Mix (30G) Or 1 Piece	0.0625	dry mix
+0.125 Of Recipe Dry Mix Or 1 Piece	0.125	dry mix
+0.083 Of Recipe Dry Mix Or 1 Muffin	0.08333333333333333	dry mix
+0.125 Of Recipe Dry Mix Or 1 Scone	0.125	dry mix
+0.062 Of Recipe Dry Mix Or 1 Piece	0.0625	dry mix
+0.062 Of Recipe Dry Mix Or 1 Blondie	0.0625	dry mix
+0.333 Box, 1 Cup Prepared	0.3333333333333333	box
+0.5 Pouch, 8 Fl Oz Prepared	0.5	pouch
+0.1 Dry Mix Makes 1 Muffin | Approx.	0.1	dry mix
+0.1 Of Full Loaf, 0.2 Of Half Loaf) | (	0.1	loaf
+0.062 Dry Mix, 1 Blondie Prepared	0.0625	dry mix
+0.071 Package, 0.25 C. Dry Mix/Aprox. 50 Ml	0.25	cup dry mix
+0.059 Th Dry Mix (21G) Or 2 Cookies Prepared	0.058823529411764705	dry mix
+0.055 Of Package 1 Sandwich Cookie	1	sandwich cookie
+0.333 Cup Dry Rice/Pasta Mix & 1 Tbsp. Seasoning) |	0.3333333333333333	cup dry rice
+0.5 Muffin, 8 Pieces	0.5	muffin
+0.5 C As Pkgd, 1.5 C Prepared	1.2	cup
+0.111 Package, 2 Cookies	0.1111111111111111	package
+0.0416 Bottle, 0.5 Tsp	0.5	teaspoons
+0.25 Packet Makes 1/2 Cup	0.5	packet
+0.143 Pouch, Prepared 1 Muffin	0.14285714285714285	pouch
+0.167 Dry Mix, Prepared 1 Muffin	0.16666666666666666	dry mix
+0.083 Th Of Dry Mix = 1/12Th Package Prepared As Directed. |	0.08333333333333333	dry mix
+0.059 Th Of Dry Mix Or 1 Cookie Prepared*** |	0.058823529411764705	dry mix
+0.25 C Mix, 1 Slice 0.0833 Loaf	0.25	cup mix
+0.2 Pizza, 4.4Oz Slice	0.2	pizza
+0.5 Muffin, 1.75	0.5	muffin
+0.125 Packet - Makes 8 Fl. Oz	0.125	packet
+0.2 Loaf, 1 1/2"" Slice	0.2	loaf
+0.25 Cup Mix (Amount For One, 2-Inch Brownie),	0.25	cup mix
+0.0625 Pkg. (46 G Mix) | Per	0.0625	mix
+0.083 Th Of Dry Mix Or 1/12Th Cake Prepared. |	0.08333333333333333	dry mix
+0.333 Cup Dry, 2/3 Cup Prepared |	0.3333333333333333	cup dry
+0.083 Th Of Dry Mix = 1 Biscuit Prepared*** |	0.08333333333333333	dry mix
+0.25 Th Of Dry Mix Or Three 4-Inch Pancakes Prepared*** |	0.25	dry mix
+0.083 Th Of Cup Dry Mix Or 1/12Th Cake Prepared	0.08333333333333333	dry mix
+0.25 Cup As Pkgd. 3/4 Cup Cooked	0.25	cup
+0.25 Package, 0.25 Cup Dry Mix	0.25	package
+0.083 Dry Mix, Makes 2 Donut Holes	0.08333333333333333	dry mix
+0.5 Ounce, 3 Onions	0.5	oz
+0.062 Dry Mix, Makes 1 Piece	0.0625	dry mix
+0.25 Tea Bag, Makes 8 Fl. Oz.	0.25	tea bag
+0.111 Th Package That Makes 3/4 Cup Prepared Salad As Directed	0.1111111111111111	package
+0.25 Of Pkg. Makes 1/2 Cup	0.25	package
+0.25 Of Pkg., Makes 1/2 Cup	0.25	package
+0.083 Package, 1/3 Cup Dry Mix	0.08333333333333333	package
+0.333 Cup Dry Mix, Makes 2-4 1/2"" Pancakes Prepared	0.3333333333333333	cup dry mix
+0.333 Cup Dry Mix, Makes 1 Muffin	0.3333333333333333	cup dry mix
+0.5 Cup Mix, Makes 1/2 Cup Prepared	0.5	cup mix
+0.167 Package, Makes 1/2 Cup	0.16666666666666666	package
+0.125 Teabag Makes 8 Floz Brewed Tea	0.125	teabag
+0.5 Inch Ball. 1 Cookie	1	1/2-inch ball
+0.5 Bag, 13 Chips	0.5	bag
+0.333 Cup Dry Mix Makes 2 Pancakes	0.3333333333333333	cup dry mix
+0.083 Pkg. Or Two 4"" Pancakes	0.08333333333333333	package
+0.333 Cup Dry Grains And 1 Tbsp. Seasoning Mix	0.3333333333333333	cup dry
+0.333 Cup Dry Mix, Makes 1 Cup Prepared	0.3333333333333333	cup dry mix
+0.125 Teabag; Makes 8 Fl Oz Brewed Tea	0.125	teabag
+0.125 Teabag, Makes 8 Fl Oz Brewed Tea	0.125	teabag
+0.05 Package, 1/4 Cup Dry Mix	0.05	package
+0.333 Cup Dry, 1/2 Cup Prepared |	0.3333333333333333	cup dry
+0.75 Cup Frozen 1/2 Cup Prepared	0.75	cup frozen
+0.125 Tsp, Makes 8 Fl Oz (240Ml) |	0.125	teaspoon
+0.333 Cup Mix + 3/4 Tsp Sugar	0.3333333333333333	cup mix
+0.062 Packet Coats 1 Piece	0.0625	packet
+3 Tbsp Cocoa Mix + 25 Marshmallows + 1/3 Gumball	3	Tablespoons
+0.333 Cup Mix, One Serving = 1 Muffin	0.3333333333333333	cup mix
+0.2 Piece Rabbit With 3 Jelly Beans	0.2	rabbit
+0.667 Cup Dry Mix, Makes 1 Cup Prepared	0.6666666666666666	cup dry mix
+0.25 Cup, One - 2 Inch Muffin |	0.25	cup
+0.062 Of Dry Mix Or 1 Slice	0.0625	dry mix
+0.1 Package, 1 Prepared Cookie	0.1	package
+0.167 Package 2 Prepared Cupcakes	0.16666666666666666	package
+0.1 Dry Mix, Makes 2 Tbsp Cookie Dough	0.1	dry mix
+0.25 Cup Dry Mix, Makes 1/2 Cup Prepared |	0.25	cup dry mix
+0.042 Bottle, About1/2 Tsp	0.5	teaspoon
+0.5 Cup Dry Mix 4-4"" Pancakes	0.5	cup dry mix
+0.5 Bread/1/2 Sauces	0.5	bread and sauces
+0.5 Bread/ 1/2 Sauces	0.5	bread and sauces
+3.5 Fully Dressed Servings Per Container, 1 Cup Salad Only, 1 Cup Dressed Salad With Toppings (100G) |	0.2857142857142857	container
+0.5 Jam Tray & 4 Wafers	0.5	tray
+0.25 Cup Dry Mix Makes One, 4"" Pancake Or Waffle	0.25	cup dry mix
+0.1 Package 1/3 Cup Dry Mix	0.3333333333333333	cup dry mix
+0.125 Packet 1 Tsp	1	tsp
+0.25 Cup Dry Mix 1/10 Package	0.25	cup dry mix
+Coats 1 Piece	0.125	packet
+3 -4 Drops	4	drops
+Makes 12Oz	12	oz, prepared
+0.125 Packet, Makes 1 Cup	0.125	packet
+0.5 Package, Makes 1 Cup Prepared	0.5	package
+0.25 Pkg. Makes 1/2 Cup	0.25	package
+0.25 Cup Roasted Rice And 1 1/2 Tsp. Seasoning Mix (1 Cup Prepared) |	0.25	cup
+0.25 Of Package, 1/2 Cup Prepared |	0.25	package
+0.5 Of 7"" Piece	0.5	7-inch piece
+0.333 Cup Flakes Makes 2/3 Cup Prepared	0.3333333333333333	cup flakes
+0.5 Of 1 Bar	0.5	bar
+0.333 Cup As Packaged, Makes 1 Cup Prepared	0.3333333333333333	cup
+Makes12 Fl.Oz (360Ml) Prepared	12	fl oz, prepared
+0.125 Packet (0.952 G)**	0.125	packet
+0.12 Of 14 Inch Crust	0.125	crust
+0.33 Pizza, 0.33 Packet Of Olive Oil	0.3333333333333333	pizza
+0.083 Package Mix,1 Tsp Drained Blueberries	0.08333333333333333	mix
+0.083 Package - 0.33 Cup Dry Mix	0.08333333333333333	package
+0.25 Of Package, Makes 0.5 Cup	0.25	package
+0.25 Cup Rice And 1 Tbsp. Seasoning Mix (1 Cup Prepared) |	0.25	cup
+0.333 Rabbit With 1/2 Oz. Of Peanut Butter	0.3333333333333333	rabbit
+0.083 Package, 0.33 Cup Dry Mix	0.08333333333333333	package
+0.5 Cup Dry Mix Makes 4 - 4"" Pancakes	0.5	cup dry mix
+0.5 Packet, Makes 8 Fl Oz	0.5	packet
+0.125 Of 9"" Crust	0.125	crust
+0.125 Of 1 Crust, Per Container	0.125	crust
+0.125 Package, Makes 1 Cup Of Prepared Soup	0.125	package
+0.167 Box 1/2 Cup Prepared	0.16666666666666666	box
+0.125 Of 9 Inch Crust	0.125	crust
+0.062 Of Package, ( 2 Tablespoons Dry Mix), 1/8 Of 9"" Crust Prepared	0.0625	package
+0.042 Pkg, 1 Cookie	0.041666666666666664	package
+0.5 Cup Dry Mix Makes 4 Pancakes	0.5	cup dry mix
+0.059 Th Dry Mix Or 2 Cookies Prepared	0.058823529411764705	dry mix
+0.5 Packet, Makes 8 Fl. Oz.	0.5	packet
+0.125 Packet, 1 1/2 Tsp	0.125	packet
+0.083 Packet Makes 12 Puddings Prepared	0.08333333333333333	packet
+0.5 Pepper30	0.5	pepper
+0.083 Package, 0.33 Cup	0.08333333333333333	package
+1 -1/3 Dry	1.3333333333333333	dry
+0.125 Cap, Makes 8 Fl Oz	0.125	cap
+0.333 Cup Dry 1/2 Cup Prepared | Null	0.3333333333333333	cup dry
+0.5 Cube (Makes 1 Cup Prepared	0.5	cube
+0.125 Packet Dry Mix Makes 2 Tbsp Prepared	0.125	packet
+0.25 Pkg, 1 Cup Preferred	0.25	package
+0.1 Baked Scone (60G) | Dry Mix	0.1	scone
+0.167 Packet, 1/2 Tsp	0.16666666666666666	packet
+0.167 Box, Makes 1/2 Cup Prepared	0.16666666666666666	box
+0.25 Cup Mix [Makes 8 Fl Oz (240 Ml) Cocoa]	0.25	cup mix
+0.5 Cup Dry, 2/3 Cup Prepared |	0.5	cup dry
+Makes 7 Fl Oz Cocoa	7	fl oz, prepared
+0.75 Scoop Makes 12 Fl. Oz.	0.75	scoop
+0.5 Tsp., 1/24 Bottle |	0.5	teaspoon
+0.333 Cup Dry Mix Or Two 4-Inch Pancakes	0.3333333333333333	cup dry mix
+0.25 Of 11 "" Pizza Crust	0.25	pizza crust
+Seasons 1 Cup	1	cup
+0.25 Package ( 1/3 Cup Dry Mix) 1/4 Crust In 12"" Pan	0.25	package
+0.083 Dry Mix, Makes 1 Muffin	0.08333333333333333	dry mix
+0.062 Dry Mix, 1/16 Cornbread As Prepared	0.0625	dry mix
+0.062 Dry Mix, Makes 1 Bar	0.0625	dry mix
+0.1 Of 10"" Crust	0.1	crust
+0.125 Of 9* Crust	0.125	crust
+0.333 Chocolate Piece With 1/2 Oz Peanut Butter (14G) 57G Total	0.3333333333333333	piece
+0.083 Package ( 1/3 Cup Dry Mix	0.08333333333333333	package
+0.062 Dry Mix, Makes 2 Crepes	0.0625	dry mix
+0.5 Box) Makes 1 Cup Prepared | (	0.5	box
+0.125 Of Recipe Dry Mix Or 1 Piece (59G) Makes 8 Scones	0.125	recipe
+0.5 Package, 0.75 Cup Prepared	0.5	package
+0.125 Packet Dry Mix 2Tbsp. Prepared	0.125	packet
+0.25 Pouch, Makes 1 Cup Prepared	0.25	pouch
+0.166 Package, Makes 0.5 Cup Prepared	0.16666666666666666	package
+0.125 Package, 1/4 Cup Dry Mix	0.125	package
+0.083 Package, 1/3 Cup Mix	0.08333333333333333	package
+0.125 Of 16"" Pizza	0.125	pizza
+0.167 Packet Spice + 1/6 Packet Cure	0.16666666666666666	packet of spice and packet of cure
+0.5 Muffin 1.75	0.5	muffin
+1.5 Cups Salad With 1 Tbsp Dressing	1.5	cups
+0.167 Box, Makes 0.5 Cup Prepared	0.16666666666666666	box
+0.1667 Box, Makes 0.5 Cup Prepared	0.16666666666666666	box
+0.1666 Box, Makes 0.5 Cup Prepared	0.16666666666666666	box
+0.167 Box Makes 0.5 Cup Prepared	0.16666666666666666	box
+0.1 Package, 1/3 Cup Dry Mix	0.1	package
+0.111 Mix & Topping (10G) Approx. Two 4-Inch Pancakes Prepared	0.1111111111111111	mix
+0.042 Bottle ( 1/2 Tsp.) |	0.5	teaspoon
+0.042 Bottle, 1/2 Tsp. |	0.5	teaspoon
+0.333 Cup Dry Mix, Makes 2 Pancakes	0.3333333333333333	cup dry mix
+0.5 Inch Slice, 1 Cookie,	1	1/2-inch slice
+0.1667 Package, Makes 0.50 Cup Prepared	0.16666666666666666	package
+0.25 Package Makes 0.5 Cup	0.25	package
+0.111 Package, 4 Tablespoons Of Mix	0.1111111111111111	package
+0.167 Pizza128 G	0.16666666666666666	pizza
+0.167 Pizza135 G	0.16666666666666666	pizza
+0.166 Bunny Or 3 Eggs	0.16666666666666666	bunny
+0.167 Package, 1 Cup Prepared	0.16666666666666666	package
+0.5 Cup Veggies & 2 Tbsp. Dip/Portion	0.5	cup
+0.05 Th Package, 2-2 In. Cookies	0.05	package
+0.05 Package, 2-2 In. Cookies	0.05	package
+0.333 Chocolate Piece (43G) With 1/2 Oz Peanut Butter (14G) Total	0.3333333333333333	piece
+0.333 Cup Rice + 8 Tsp Sauce Mix	0.3333333333333333	cup rice
+0.125 Of 9 Crust	0.125	crust
+0.5 Cup Dry Mix Approx. Four 4"" Pancakes	0.5	cup dry mix
+0.25 Pouch Makes 1 Cup Prepared	0.25	pouch
+0.12 Of 1 Crust	0.125	crust
+0.16 Chocolate Piece (52G) With 0.5 Oz Peanut Butter	0.16666666666666666	piece
+0.25 Cup Dry Mix, Makes 3-4"" Panckaes	0.25	cup dry mix
+0.083 Dry Mix, Makes 1 Donut	0.08333333333333333	dry mix
+0.25 Crust, 1/4 Cup Dry Mix	0.25	crust
+0.333 Tea Bag Makes 12 Fl Oz	0.3333333333333333	tea bag
+0.125 Package Makes 1 Cup Of Prepared Soup	0.125	package
+0.25 Package Makes 1/2 Cup Prepared	0.25	package

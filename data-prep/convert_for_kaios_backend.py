@@ -10,7 +10,7 @@ from tkinter import messagebox
 def show_override_gui(p: str, upc: str) -> tuple[str, str]:
     result = {"q": None, "unit": None}
 
-    def on_ok():
+    def on_ok(*args):
         try:
             q_value = eval(q_entry.get().strip())
         except ValueError:
@@ -45,10 +45,12 @@ def show_override_gui(p: str, upc: str) -> tuple[str, str]:
     tk.Label(frame_inputs, text="Quantity (q):").grid(row=0, column=0, sticky="w")
     q_entry = tk.Entry(frame_inputs)
     q_entry.grid(row=0, column=1, sticky="ew", padx=5)
+    q_entry.bind('<Return>', on_ok)
 
     tk.Label(frame_inputs, text="Unit:").grid(row=1, column=0, sticky="w")
     unit_entry = tk.Entry(frame_inputs)
     unit_entry.grid(row=1, column=1, sticky="ew", padx=5)
+    unit_entry.bind('<Return>', on_ok)
 
     frame_inputs.columnconfigure(1, weight=1)
 
@@ -81,12 +83,6 @@ def show_override_gui(p: str, upc: str) -> tuple[str, str]:
     return result["q"], result["unit"]
 
 # fat, carbs, protein, caffeine, alcohol
-stupid_foods = [
-]
-stupid_upcs = [
-]
-bad_servings_upcs = {
-}
 stupid_servings = [
     re.compile('Guideline amount per fl oz of beverage', re.IGNORECASE),
     re.compile('Quantity not specified', re.IGNORECASE),
@@ -94,11 +90,11 @@ stupid_servings = [
     re.compile('N/A', re.IGNORECASE),
     re.compile('None', re.IGNORECASE),
     re.compile(r'^\(.*', re.IGNORECASE),  # leading parenthesis are STUPID
-    re.compile(r'^0+\D.*', re.IGNORECASE),  # zero values are STUPID
 ]
 acceptable_servings = [
     re.compile(r"^(g|ml)$", re.IGNORECASE),
     re.compile(r"^(\d+\.\d+) (\D+)$", re.IGNORECASE),
+    re.compile(r"^(\.\d+) (\D+)$", re.IGNORECASE),
     re.compile(r"^(\d+/\d+) (\D+)$", re.IGNORECASE),
     re.compile(r"^(\d+)[ -.\\]+(\D+)$", re.IGNORECASE),
     re.compile(r"^1 (\d+) (oz) container$", re.IGNORECASE),
@@ -106,12 +102,14 @@ acceptable_servings = [
     re.compile(r"^(1) ([a-z]+)", re.IGNORECASE),
     re.compile(r"^(\d+/\d+) (cup, raw)", re.IGNORECASE),
     re.compile(r"^(\d+) 100 calorie (package)", re.IGNORECASE),
-]
-ignore_parsing_servings = [
+    re.compile(r"^(\d+\.\d+) (oz) \(", re.IGNORECASE),
+    re.compile(r"^(\d+) (oz) \(", re.IGNORECASE),
 ]
 servings_fix_these_phrases = [
     {'find': re.compile(r'\u00BC', re.IGNORECASE), 'replace': '1/4'},
     {'find': re.compile(r'[^\u0020-\u007E]', re.IGNORECASE), 'replace': ''},
+    {'find': re.compile(r'\s*\([^()]+\)$', re.IGNORECASE), 'replace': ''},
+    {'find': re.compile(r'\babout\b', re.IGNORECASE), 'replace': ''},
     {'find': re.compile(r'^\s+', re.IGNORECASE), 'replace': ''},
     {'find': re.compile(r'\s+$', re.IGNORECASE), 'replace': ''},
     {'find': re.compile(r'\s+', re.IGNORECASE), 'replace': ' '},
@@ -161,6 +159,8 @@ def my_titlecase(input_string):
     return output.strip()
 
 def parse_portion(q: float, p: str, upc: str):
+    if p in skip_file_servings:
+        return None, None
     for phrase in servings_fix_these_phrases:
         p = phrase['find'].sub(phrase['replace'], p)
     if is_portion_stupid(p):
@@ -212,6 +212,11 @@ def parse_skip_servings_file(file_path: str):
             line = f.readline()
     return output
 
+def write_skip_file(file_path: str, items: set):
+    with open(file_path, 'w') as f:
+        for item in items:
+            f.write(f"{item}\n")
+
 def parse_replacement_servings_file(file_path: str):
     output = {}
     if not os.path.exists(file_path):
@@ -225,6 +230,7 @@ def parse_replacement_servings_file(file_path: str):
     return output
 
 skip_file_servings = parse_skip_servings_file("skip_file.txt")
+write_skip_file("skip_file.txt", skip_file_servings)
 replacement_servings = parse_replacement_servings_file('replacement-file.txt')
 
 unique_servings = set()
@@ -245,9 +251,11 @@ with open("output_my_titlecase.jsonl", "w") as output_file:
                 quantity = 1
                 quantity, portion_name = parse_portion(quantity, portion_name, '')
                 if quantity is None or portion_name is None:
-                    skip_file_servings.add(portion['portionDescription'])
-                    with open('skip_file.txt', 'a') as f:
-                        f.write(f"{portion['portionDescription']}\n")
+                    sss = portion['portionDescription']
+                    if sss not in skip_file_servings:
+                        skip_file_servings.add(sss)
+                        with open('skip_file.txt', 'a') as f:
+                            f.write(f"{sss}\n")
                     continue
                 portion_grams = portion['gramWeight']
                 ratio = portion_grams / 100.0
@@ -273,19 +281,6 @@ with open("output_my_titlecase.jsonl", "w") as output_file:
         for item_stream in raw_data["BrandedFoods"]:
             item = to_standard_types(item_stream)
             upc = item['gtinUpc']
-            if upc in stupid_upcs:
-                continue
-            if upc in bad_servings_upcs.keys():
-                item['householdServingFullText'] = bad_servings_upcs[upc]
-            if item['description'].lower() in stupid_foods:
-                continue
-            skip = False
-            for stupid_food in stupid_foods:
-                if stupid_food in item['description'].lower():
-                    skip = True
-                    break
-            if skip:
-                continue
             serving_100g = {'name': 'g', 'quantity': 100.0}
             for nutrient in item['foodNutrients']:
                 if nutrient['nutrient']['name'] in macros.keys():
@@ -304,9 +299,11 @@ with open("output_my_titlecase.jsonl", "w") as output_file:
                 quantity, portion_name = parse_portion(quantity, portion_name, upc)
 
                 if quantity is None or portion_name is None:
-                    skip_file_servings.add(my_titlecase(item['householdServingFullText']))
-                    with open('skip_file.txt', 'a') as f:
-                        f.write(f"{my_titlecase(item['householdServingFullText'])}\n")
+                    sss = my_titlecase(item['householdServingFullText'])
+                    if sss not in skip_file_servings:
+                        skip_file_servings.add(sss)
+                        with open('skip_file.txt', 'a') as f:
+                            f.write(f"{sss}\n")
 
                 if quantity is not None and portion_name is not None:
                     serving = { 'name': portion_name, 'quantity': quantity, **household_serving }
@@ -317,9 +314,11 @@ with open("output_my_titlecase.jsonl", "w") as output_file:
                 quantity = item['servingSize']
                 quantity, portion_name = parse_portion(quantity, portion_name, upc)
                 if quantity is None or portion_name is None:
-                    skip_file_servings.add(item['servingSizeUnit'])
-                    with open('skip_file.txt', 'a') as f:
-                        f.write(f"{item['servingSizeUnit']}\n")
+                    sss = item['servingSizeUnit']
+                    if sss not in skip_file_servings:
+                        skip_file_servings.add(sss)
+                        with open('skip_file.txt', 'a') as f:
+                            f.write(f"{sss}\n")
                 if quantity is not None and portion_name is not None:
                     serving = { 'name': portion_name, 'quantity': quantity, **household_serving }
                     servings.append(serving)
