@@ -90,6 +90,7 @@ stupid_servings = [
     re.compile('N/A', re.IGNORECASE),
     re.compile('None', re.IGNORECASE),
     re.compile(r'^\(.*', re.IGNORECASE),  # leading parenthesis are STUPID
+    re.compile(r'^2 shells,.*(taco|seasoning)', re.IGNORECASE),  # i dont even understand theset supid taco servings
 ]
 acceptable_servings = [
     re.compile(r"^(g|ml)$", re.IGNORECASE),
@@ -104,6 +105,9 @@ acceptable_servings = [
     re.compile(r"^(\d+) 100 calorie (package)", re.IGNORECASE),
     re.compile(r"^(\d+\.\d+) (oz) \(", re.IGNORECASE),
     re.compile(r"^(\d+) (oz) \(", re.IGNORECASE),
+    re.compile(r"^(\d+) (oz) serving,", re.IGNORECASE),
+    re.compile(r"^(\d+.\d+) (oz) serving,", re.IGNORECASE),
+    re.compile(r"^(.\d+) (oz) serving,", re.IGNORECASE),
 ]
 servings_fix_these_phrases = [
     {'find': re.compile(r'\u00BC', re.IGNORECASE), 'replace': '1/4'},

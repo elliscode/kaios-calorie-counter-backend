@@ -259,8 +259,6 @@ Fruit By The Foot: 1 Roll	1	roll
 Pizza	1	pizza
 Per Bar	1	bar
 1 [Image Of A Flowpack With 2 Oreo's]	1	pack of 2 oreos
-2 Shells, 1 3/4 Tsp Seasoning Mix	2	shells
-2 Shells, 2 1/2 Tsp Seasoning Mix	2	shells
 1/4 Cup/Approximately 2-6 Inch Baked Tortillas	0.25	cup
 18 2-3 Inch Pieces	18	3 inch pieces
 10 Cookies & 4 Tbsp Icing	10	cookies
@@ -2313,25 +2311,6 @@ Per 0.4 Sec. Spray	0.4	second spray
 27 G Mix Or 1 Slice	1	slice
 25G Mix Or 1 Slice	1	slice
 1/6 Tray 4 Shrimp + 2 Tbsp Sauce	0.16666666666666666	tray
-4 Oz Serving, 40 Servings Per Container	4	oz
-3.64 Oz Serving, 89 Servings Per Container	3.64	oz
-2.89 Oz Serving, 56 Servings Per Container	2.89	oz
-3 Oz Serving, 53 Servings Per Container	3	oz
-7.64 Oz Serving, 71 Servings Per Container	7.64	oz
-3 Oz Serving, 91 Servings Per Container	3	oz
-1.11 Oz Serving, 145 Servings Per Container	1.11	oz
-1.07 Oz Serving, 91 Servings Per Container	1.07	oz
-3.21 Oz Serving, 50 Servings Per Container	3.21	oz
-1.07 Oz Serving, 442 Servings Per Container	1.07	oz
-2 Oz Serving, 161 Servings Per Container	2	oz
-2 Oz Serving, 80 Servings Per Container	2	oz
-2.29 Oz Serving, 140 Servings Per Container	2.29	oz
-3.21 Oz Serving, 155 Servings Per Container	3.21	oz
-5.04 Oz Serving, 1 Servings Per Container	5	oz
-6.89 Oz Serving, 1 Servings Per Container	6.89	serving
-3 Oz Serving, 81 Servings Per Container	3	oz
-3 Oz Serving, 100 Servings Per Container	3	oz
-3.25 Oz Serving, 50 Servings Per Container	3.25	oz
 2.5 Tbsp Mix (22G) Makes 1 Cookie Per 2.5 Tbsp Mix	2.5	Tablespoons mix
 1 1/3 Cup (41G) Cereal	1.3333333333333333	cup
 1 1/2 Cup (40G) Cereal	1.5	cup
@@ -2614,26 +2593,8 @@ Per 4 Sprouts Raw	4	sprouts raw
 3/4 Oz (7 Pieces) / 21 G	7	pieces
 0.35Oz	0.35	oz
 5 3/10 Oz	5.3	oz
-2.11 Oz Serving, 115 Servings Per Container	2.11	oz
-1.61 Oz Serving, 210 Servings Per Container	1.61	oz
-1.54 Oz Serving, 196 Servings Per Container	1.54	oz
-1.46 Oz Serving, 205 Servings Per Container	1.46	oz
-6 Oz Serving, 27 Servings Per Container	6	oz
-1.46 Oz Serving, 203 Servings Per Container	1.46	oz
-4.64 Oz Serving, 1 Servings Per Container	4.64	oz
-6 Oz Serving, 1 Servings Per Container	6	oz
-6.11 Oz Serving, 1 Servings Per Container	6.11	oz
-8.68 Oz Serving, 1 Servings Per Container	8.68	oz
-1.21 Oz Serving, 250 Servings Per Container	1.21	oz
-1.39 Oz Serving, 200 Servings Per Container	1.39	oz
-2.61 Oz Serving, 100 Servings Per Container	2.61	oz
-2.5 Oz Serving, 192 Servings Per Container	2.5	oz
 4.5Oz Cup	4.5	oz
-2.5 Oz Serving, 200 Servings Per Container	2.5	oz
 Per 1 Can	1	can
-4.21 Oz Serving, 38 Servings Per Container	4.21	oz
-3.93 Oz Serving, 49 Servings Per Container	3.93	oz
-3 Oz Serving, 160 Servings Per Container	3	oz
 8 Crackers (30G)	8	crackers
 1/4 Cup 19.5 G	0.25	cups
 1/2 Cup Dry Mix (54G) Makes 3 4-Inch Pancakes	0.5	cup dry mix
@@ -2714,36 +2675,20 @@ Tbsp	1	Tablespoons
 0.06 Dry Mix, 1 Blonde Prepared	0.0625	dry mix
 1/12 Dry Mix, 1 Cupcake Prepared	0.08333333333333333	dry mix
 0.083 Dry Mix, 1 Cupcake Prepared	0.08333333333333333	dry mix
-8 Oz Serving, 18 Servings Per Container	8	oz
-2.39 Oz Serving, 213 Servings Per Container	2.39	oz
 One Bowl	1	bowl
 3.45Oz	3.45	oz
-3.25 Oz Serving, 59 Servings Per Container	3.25	oz
 1/2 Cup 128G)	0.5	cup
-2.61 Oz Serving, 74 Servings Per Container	3.61	oz
 3.17Oz.	3.17	oz
 5.83Oz.	5.83	oz
 3.63Oz.	3.63	oz
-2.04 Oz Serving, 80 Servings Per Container	2	oz
 7.44Oz	7.44	oz
 3.44Oz.	3.44	oz
 5.15Oz.	5.15	oz
 2 Oz. Of Chicken With .8 Oz. Sauce	2	oz
-3 Oz Serving, 90 Servings Per Container	3	oz
 3 Tbsp (36G)	3	Tablespoons
-2.5 Oz Serving, 72 Servings Per Container	2.5	oz
-3 Oz Serving, 56 Servings Per Container	3	oz
-3.07 Oz Serving, 52 Servings Per Container	3	oz
 Kit Kat Cereal 1 Cup	1	cup
 Carmella Creeper 1 1/3 Cup	1.3333333333333333	cup
 Chocolate Lucky Charms 1 Cup	1	cup
-2 Oz Serving, 180 Servings Per Container	2	oz
-3 Oz Serving, 107 Servings Per Container	3	oz
-6 Oz Serving, 53 Servings Per Container	6	oz
-2.89 Oz Serving, 55 Servings Per Container	2.89	oz
-4 Oz Serving, 160 Servings Per Container	4	oz
-1.96 Oz Serving, 250 Servings Per Container	1.96	oz
-2 Oz Serving, 96 Servings Per Container	2	oz
 6Oz	6	oz
 1/12 Package Mix, 1 Tsp Drained Blueberries, 1 Tsp Streusel Topping	0.08333333333333333	package mix
 Tsp. Tsp	1	teaspoon
@@ -2778,3 +2723,98 @@ About13 Chips	13	chips
 5 Mg Thc Per Can 1 Can	1	can
 3 Potstickers With 1/3 Packet Sauce	3	potstickers
 8.1Oz	8.1	oz
+17 Chips28 G	17	chips
+2/3 Cup Dry Mix (140G) Prepared	0.6666666666666666	cup dry mix
+3 Tbsp Mix & 1/2 Tsp Topping	3	Tablespoons mix
+3 1/2 Pieces	3.5	pieces
+0.25Pack	0.25	pack
+1/4 Cup Dry Mix 1/12 Package	0.25	cup dry mix
+1/4 Cup Mix Makes 1 Roll	0.25	cup mix
+3 Tbsp Dry Mix 1/20 Package	3	Tablespoons
+1/3 C Dry Mix 1/12 Package	0.3333333333333333	cup dry mix
+1/12 Package Makes 2 - 2" Cookies	0.08333333333333333	package
+2.5 Tbsp Mix Makes 1 Cookie	2.5	Tablespoons mix
+2 Tbsp Mix + Decorations Makes 1 Cookie Sandwich	2	Tablespoons mix
+2 Oz As Pkgd 1 1/3 Cups Prepared	2	oz
+1.7 Oz As Pkgd 1 Cup Prepared	1.7	oz
+2 1/3 Cups (30G) Per Serving	2.3333333333333335	cups
+5 Pieces (30G) Per Serving	5	pieces
+1/4 Cup (30 G) Makes 1 Cup Prepared	0.25	cup
+1/4 Cup (34G/Approx. Two - 4" Pancakes) Dry Mix Alone	0.25	cup
+1/2 Tsp Dry Mix Makes 1/4 Cup Prepared	0.5	teaspoon dry mix
+3.5Oz	3.5	oz
+1/2 Scoop Makes 360Ml ( 12 Fl. Oz.) Prepared Drink	0.5	scoop
+2/3 Of A Stick And 1 Packet Of Powder	0.6666666666666666	stick
+1/4 Bag = 1 Cup Prepared	0.25	bag
+2 Slices 67G	2	slices
+1/16Th Package Of Dry Mix Or 1/16Th Prepared	0.0625	dry mix
+1/12Th Of Mix Only Or 1/12Th Of Frosting Prepared.	0.08333333333333333	mix
+1/18Th Mix =1 Cookie Prepared	0.05555555555555555	mix
+1/12Th Mix Dry Or 1/12Th Cake Prepared	0.08333333333333333	dry mix
+2 Tbsp Of Dry Mix Or 1 Brownie Prepared	2	Tablespoons dry mix
+1/18 Dry Mix, ( 2 Tbsp.), 1 Pancake	0.05555555555555555	dry mix
+1/14 Dry Mix, (),1 Pancake	0.07142857142857142	dry mix
+5 Pieces+ 0.667 Packet Of Sauce	5	pieces
+6 Donuts + 1 Cinnamon & Sugar Packet	6	donus
+13Mm Slice	1	13-mm slice
+2.6 Oz Dry Mix (74G) 1 Cup Prepared	2.6	dry mix
+1/2 Cup (125G) Per Serving	0.5	cup
+1/9 Dry Mix ( 4 Tbsp.) 2 Pancakes	0.1111111111111111	dry mix
+1/2 Package Of Fruit And 1/2 Package Of Yogurt Smoothie Packet (20.5G), And 1/2 Cup Of Water, Makes 8 Fl. Oz.	0.5	package
+1/8 Dry Mix 1 Scone (70G) As Prepared	0.125	dry mix
+1/12 Dry Mix, As Prepared 1 Piece	0.08333333333333333	dry mix
+1/10Th Loaf	0.1	loaf
+1/2 Package Of Fruit And 1/2 Package Of Yogurt Smoothie Packet (18G), And 1/2 Cup Of Water, Makes 8 Fl. Oz.	0.5	package
+2 Cookies30 G	2	cookies
+1/4 Pkg (Makes 1/2 Cups	0.25	package
+1/3 Bag, Unpopped Makes 3 Cups Popped, Servings Per Bag 3	0.3333333333333333	bag
+1/12 Cup Mix, Makes 1 Muffin	0.08333333333333333	cup mix
+1/4 Cup Mix Makes 4 Pancakes	0.25	cup mix
+1/4 Pkg = 1 Cup Prepared	0.25	package
+2 Slices With 1/3 Cup Gravy	2	slices
+1/3 Cup Dry, 1 Cup Prepared	0.3333333333333333	cup dry
+1/3 Cup Dry Mix (59G)	0.3333333333333333	cup dry mix
+3.58Oz	3.5	oz
+Per 1 Bottle	1	bottle
+Per Package	1	package
+1 1/4 Cup Frozen 1 Cup Prepared	1.25	cup frozen
+Chocolate Peanut Butter Chex 1 Cup	1	cup
+Per 1/16 Pkg Mix	0.0625	package mix
+3 Tortillas, 1 Tbsp Sauce, 1 Tsp Seasoning	3	tortillas
+2 Tsp Seasoning, 2.5 Tsp Sauce	2	teaspoons seasoning
+1/4 Cup Dry Mix (28G) 1 Cup Prepared	0.25	cup dry mix
+1/4 Cup Dry Mix (23G) 1 Cup Prepared	0.25	cup dry mix
+1/4 Cup Dry Mix (25G) 1 Cup Prepared	0.25	cup dry mix
+1/4 Cup Dry Mix (27G) 1 Cup Prepared	0.25	cup dry mix
+1 1/4" Ball Of Dough	1	1.25-inch dough ball
+1 1/4 Cup Trix	1.25	cup
+1/2 Cup Mix 1 Waffle Prepared	0.5	cup mix
+1/4 Cup Mix1 Roll Prepared	0.25	cup mix
+3.35Oz	3.35	oz
+1/4 Cup (52 G) Yields 12 Fl Oz Prepared	0.25	cup
+Cocoa Puffs 1 Cup	1	cup
+1 1/2 Cup (39G)	1.5	cups
+Cinnamon Chex 1 Cup	1	cup
+0.75Oz Bag	0.75	oz
+2.2Oz.Bar	2.2	oz
+2.2Oz. Bar	2.2	oz
+1.3Oz. Bar	1.3	oz
+2 Cups (226G) Frozen, 1 Cup Cooked	2	cups frozen
+1/2 Cup (125G) Frozen, 1/2 Cup Cooked	0.5	cups frozen
+1 1/4 Cup (109G) Frozen, 1/2 Cup Cooked	1.25	cups frozen
+1 2/3 Cup (114G) Frozen, 1/2 Cup Cooked	1.6666666666666665	cups frozen
+2 Cups (228G) Frozen, 1 Cup Cooked	2	cups frozen
+1 3/4 Cup (232G) Frozen, 1 Cup Cooked	1.75	cups frozen
+1 1/3 Cup (139G) Frozen	1.3333333333333333	cups frozen
+2/3 Cup (83G) Frozen	0.6666666666666666	cups frozen
+1 1/2 Cups (131G) Frozen	1.5	cups frozen
+1 1/4 Cup (137G) Frozen	1.25	cups frozen
+2/3 Cup (91G) Frozen	0.6666666666666666	cup frozen
+1 1/4 Cup (138G) Frozen	1.25	cups frozen
+1 1/4 Cup (87G) Frozen	1.25	cups frozen
+1 3/4 Cup Frozen (211G) 1 Cup Cooked	1.75	cups frozen
+1/2 Cup (106G) Undrained	0.5	cup, undrained
+3 Dumplings Plus 2 Tsp Sauce	3	dumplings
+1 1/3 Cups (268G) Frozen	1.3333333333333333	cups frozen
+1 1/3 Cups (291G) Frozen	1.3333333333333333	cups frozen
+1 1/3 Cups (244G) Frozen	1.3333333333333333	cups frozen
