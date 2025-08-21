@@ -122,6 +122,21 @@ servings_fix_these_phrases = [
     {'find': re.compile(r'\s+', re.IGNORECASE), 'replace': ' '},
     {'find': re.compile(r'\(\d+g\)\s*', re.IGNORECASE), 'replace': ''},
 ]
+servings_post_processing = [
+    {'find': re.compile(r'^"+ ([a-z]+)\s*.*', re.IGNORECASE), 'replace': r'1-inch \1'},
+    {'find': re.compile(r'^abr$', re.IGNORECASE), 'replace': 'bar'},
+    {'find': re.compile(r'^[^a-zA-Z0-9]+', re.IGNORECASE), 'replace': ''},  # symbols at the front
+    {'find': re.compile(r'[^a-zA-Z0-9]+$', re.IGNORECASE), 'replace': ''},  # symbols at the end
+    {'find': re.compile(r'^$', re.IGNORECASE), 'replace': 'serving'},  # Empty, im just gonna guess
+    {'find': re.compile(r'(\d) inch', re.IGNORECASE), 'replace': r'\1-inch'},
+    {'find': re.compile(r'(tbsp|tablespoon|tbp)s*\.*', re.IGNORECASE), 'replace': r'Tablespoons'}, # Tablespoons
+    {'find': re.compile(r'(tsp|teaspoon|tbp)s*\.*', re.IGNORECASE), 'replace': r'teaspoons'}, # teaspoons
+]
+servings_post_processing_skip_these = [
+    re.compile(r'^\.$', re.IGNORECASE),  # A single dot? really?
+    re.compile(r'^al$', re.IGNORECASE),  # I think they meant grams
+    re.compile(r'^G ', re.IGNORECASE),  # I think theese were all supposed to be grams
+]
 stupid_brands = [
     "Not A Branded Item".lower(),
     "N/A".lower(),
@@ -165,6 +180,17 @@ def my_titlecase(input_string):
     output = re.sub(acai_berry, "Acai Berry", output)
     output = re.sub(two_as, "AA", output)
     return output.strip()
+
+def portion_name_post_process(portion_name: str):
+    p = portion_name
+    if not p:
+        return p
+    for phrase in servings_post_processing:
+        p = phrase['find'].sub(phrase['replace'], p)
+    for phrase in servings_post_processing_skip_these:
+        if phrase.findall(p):
+            return None
+    return p
 
 def parse_portion(q: float, p: str, upc: str):
     if p in skip_file_servings:
@@ -237,9 +263,24 @@ def parse_replacement_servings_file(file_path: str):
             line = f.readline()
     return output
 
+
+def parse_upc_replacement_file(file_path: str):
+    output = {}
+    if not os.path.exists(file_path):
+        return output
+    with open(file_path, 'r') as f:
+        line = f.readline()
+        while line != "":
+            parts = line.split('\t')
+            output[parts[0]] = parts[1]
+            line = f.readline()
+    return output
+
+
 skip_file_servings = parse_skip_servings_file("skip_file.txt")
 write_skip_file("skip_file.txt", skip_file_servings)
 replacement_servings = parse_replacement_servings_file('replacement-file.txt')
+upc_replacement_servings = parse_upc_replacement_file('upc-replacement-file.txt')
 
 unique_servings = set()
 count = 0
@@ -258,6 +299,7 @@ with open("output_my_titlecase.jsonl", "w") as output_file:
                 portion_name = portion['portionDescription']
                 quantity = 1
                 quantity, portion_name = parse_portion(quantity, portion_name, '')
+                portion_name = portion_name_post_process(portion_name)
                 if quantity is None or portion_name is None:
                     sss = portion['portionDescription']
                     if sss not in skip_file_servings:
@@ -289,6 +331,8 @@ with open("output_my_titlecase.jsonl", "w") as output_file:
         for item_stream in raw_data["BrandedFoods"]:
             item = to_standard_types(item_stream)
             upc = item['gtinUpc']
+            if upc in upc_replacement_servings.keys():
+                item['householdServingFullText'] = upc_replacement_servings[upc]
             serving_100g = {'name': 'g', 'quantity': 100.0}
             for nutrient in item['foodNutrients']:
                 if nutrient['nutrient']['name'] in macros.keys():
@@ -305,6 +349,7 @@ with open("output_my_titlecase.jsonl", "w") as output_file:
                 portion_name = my_titlecase(item['householdServingFullText'])
                 quantity = 1
                 quantity, portion_name = parse_portion(quantity, portion_name, upc)
+                portion_name = portion_name_post_process(portion_name)
 
                 if quantity is None or portion_name is None:
                     sss = my_titlecase(item['householdServingFullText'])
@@ -321,6 +366,7 @@ with open("output_my_titlecase.jsonl", "w") as output_file:
                 portion_name = item['servingSizeUnit']
                 quantity = item['servingSize']
                 quantity, portion_name = parse_portion(quantity, portion_name, upc)
+                portion_name = portion_name_post_process(portion_name)
                 if quantity is None or portion_name is None:
                     sss = item['servingSizeUnit']
                     if sss not in skip_file_servings:

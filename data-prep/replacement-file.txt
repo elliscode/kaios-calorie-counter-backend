@@ -4,57 +4,56 @@ Juice of 1 lemon	1	juice of 1 lemon
 Juice of 1 lime	1	juice of 1 lime
 Juice of 1 orange	1	juice of 1 orange
 1 1/2 Cup	1.5	cup
-1 1/3 Cup	1.333	cup
+1 1/3 Cup	1.3333333333333333	cup
 1 1/4 Cup	1.25	cup
 0.062 Package 1 Bar	1	bar
-0.2 Of Package, Makes 1/2 Cup Prepared	1	fifth of a package
-3 -4 Chocolate Dates	4	chocolate dates
+0.2 Of Package, Makes 1/2 Cup Prepared	0.2	package
+3 -4 Chocolate Dates	4	dates
 1 1/2 Tbsp	1.5	Tablespoons
-0.167 Carton Makes 1/6 Carton Prepared	1	sixth of a carton
-0.167 Carton, Makes 1/6 Carton Prepared	1	sixth of a carton
+0.167 Carton Makes 1/6 Carton Prepared	0.16666666666666666	carton
+0.167 Carton, Makes 1/6 Carton Prepared	0.16666666666666666	carton
 0,52 Onz	0.52	oz
 1/4 Cup (30G Kernels Plus Salt On Shell)*	0.25	cup
 1/4 Cup (30G Kernels)*	0.25	cup
 1/4 Cup (30G Kernels Plus Seasoning On Shell)*	0.25	cup
-2 Tbsp Mix Makes 1 Cookie	2	tablespoons
-2 Tbsp Mix Makes 1 Cookie	2	Tablespoons of mix
+2 Tbsp Mix Makes 1 Cookie	2	tablespoons mix
 5 -6 Dates	6	dates
 0.5 Package,	0.5	package
 3 Oz. Ham And 1/2 Tsp. Gaize	3	oz
 0.5 Package	0.5	package
 5 To 6 Potatoes	6	potatoes
 0.5 Packet (1 G)**	0.5	packet
-6 -4 Pin Pcs	6	four pin pieces
+6 -4 Pin Pcs	6	4-pin bricks
 0.25 Tea Bag	0.25	tea bag
-3 " X 3" Piece	1	3 inch square piece
+3 " X 3" Piece	1	3-inch square piece
 200 Ml Naparu, 1 Tea Bag	1	tea bag
 1 4-Oz Cup	4	oz
 3 -5 Pieces	5	pieces
 8 Fl. Oz.,1 Tea Bag | Makes	1	tea bag
 2 Pieces W/ 2.5 Tsp. Of Icing	2	pieces
-2 -3 Second Dispense	3	seconds holding the dispenser
+2 -3 Second Dispense	3	seconds
 0.125 Package,	0.125	package
 2 Bites And 1/2 Packet Sauce	2	bites
 0.5 Oz Cracklins With 1 Tsp Salsa	0.5	oz
 2 Slices	2	slices
 0.25 Package, Makes 1/2 Cup	0.25	package
-2 Slices 3' Diameter	2	three inch diameter slices
+2 Slices 3' Diameter	2	3-inch diameter slices
 2 -4 Dates	4	dates
 11 Fl Oz, 1 Can | Approx.	11	fl oz
 2 -3 Pieces	3	pieces
-2 Slices 3" Diameter	2	three inch diameter slices
+2 Slices 3" Diameter	2	3-inch diameter slices
 0.5 Cup / 125 Ml) | (	0.5	cup
 4 -5	5	onions
 2 Tco Shells, 1/5 Packet Seasoning, 1/5 Packet Taco Sauce	2	taco shells
 2Links	2	links
-1 1/3 Cup Frozen3/4 Cup Prepared	1.333	cup, frozen
+1 1/3 Cup Frozen3/4 Cup Prepared	1.3333333333333333	cup, frozen
 156 Milliliter/5.3 Fluid Ounce	5.3	fl oz
 1000 Milliliter/1.1 Liquid Quart	1	liter
 148 Milliliter/5 Fluid Ounce	5	fl oz
 5 Fl Oz	5	fl oz
 8 -10 Pieces	10	pieces
 2 1/4 Tsp	2.25	teaspoons
-1 3/10 Onz	1.3	oz
+1 3/10 Onz	1.3333333333333333	oz
 .59 Onz	0.59	oz
 1 -4 Oz Cup	4	oz
 Approx. 15 Crisps	15	crisps
@@ -1506,7 +1505,7 @@ Waffle	1	waffle
 5 1/2 Oz	5.5	oz
 ~1.1 Oz	1.1	oz
 9 Pieces With 3 Tsp Of Condiments	9	pieces
-1 3/10 Oz	1.3	oz
+1 3/10 Oz	1.3333333333333333	oz
 9.8 Fl02	9.8	fl oz
 Two Tbsp	2	Tablespoons
 3 3/10 Oz	3.3	oz
@@ -2063,7 +2062,7 @@ Per 0.4 Sec. Spray	0.4	second spray
 2/3 Cup Dry Mix Per 2/3 Cup Dry Mix	0.6666666666666666	cup dry mix
 11 Pieces Per Serving	11	pieces
 1.2 Cups Per Serving	1.2	cups
-1.3 Cups Per Serving	1.3	cups
+1.333 Cups Per Serving	1.3333333333333333	cups
 1/3 Cup Dry Mix 1 Cup Prepared - As Packaged	0.3333333333333333	cup dry mix
 3 Oz. Drained (84G/5 Pieces) Per Serving	3	oz, drained
 10Oz	10	oz
@@ -2493,7 +2492,7 @@ Per 1/2 Bag	0.5	bag
 0.4Oz	0.4	oz
 2/3 Cup Per Serving	0.6666666666666666	cups
 1.6Oz	1.6	oz
-1.3Oz	1.3	oz
+1.333Oz	1.3333333333333333	oz
 8 Pcs 15G	8	pieces
 3 Tbsp 	3	Tablespoons
 2 Pieces Per Serving	2	pieces
@@ -2790,7 +2789,7 @@ Cinnamon Chex 1 Cup	1	cup
 0.75Oz Bag	0.75	oz
 2.2Oz.Bar	2.2	oz
 2.2Oz. Bar	2.2	oz
-1.3Oz. Bar	1.3	oz
+1.333Oz. Bar	1.3333333333333333	oz
 2 Cups Frozen, 1 Cup Cooked	2	cups frozen
 1/2 Cup Frozen, 1/2 Cup Cooked	0.5	cups frozen
 1 1/4 Cup Frozen, 1/2 Cup Cooked	1.25	cups frozen
