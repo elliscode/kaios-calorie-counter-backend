@@ -131,11 +131,17 @@ servings_post_processing = [
     {'find': re.compile(r'(\d) inch', re.IGNORECASE), 'replace': r'\1-inch'},
     {'find': re.compile(r'(tbsp|tablespoon|tbp)s*\.*', re.IGNORECASE), 'replace': r'Tablespoons'}, # Tablespoons
     {'find': re.compile(r'(tsp|teaspoon|tbp)s*\.*', re.IGNORECASE), 'replace': r'teaspoons'}, # teaspoons
+    {'find': re.compile(r'\s*\|.*$', re.IGNORECASE), 'replace': r''},
 ]
 servings_post_processing_skip_these = [
     re.compile(r'^\.$', re.IGNORECASE),  # A single dot? really?
     re.compile(r'^al$', re.IGNORECASE),  # I think they meant grams
     re.compile(r'^G ', re.IGNORECASE),  # I think theese were all supposed to be grams
+    re.compile(r'^ap[prox]*$', re.IGNORECASE),  # why
+    re.compile(r'^amout$', re.IGNORECASE),  # what
+    re.compile(r'^amoun$', re.IGNORECASE),  # what
+    re.compile(r'^amours$', re.IGNORECASE),  # what
+    re.compile(r'^as$', re.IGNORECASE),  # what
 ]
 stupid_brands = [
     "Not A Branded Item".lower(),
