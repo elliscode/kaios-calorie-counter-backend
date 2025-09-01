@@ -92,6 +92,9 @@ stupid_servings = [
     re.compile(r'^\(.*', re.IGNORECASE),  # leading parenthesis are STUPID
     re.compile(r'^2 (shells|tortillas),.*(taco|seasoning)', re.IGNORECASE),  # i dont even understand these stupid taco servings
 ]
+stupid_foods = [
+    'Milk, Human',  # it doesnt even have any macros completely useless
+]
 acceptable_servings = [
     re.compile(r"^(g|ml)$", re.IGNORECASE),
     re.compile(r"^(\d+\.\d+) (\D+)$", re.IGNORECASE),
@@ -296,6 +299,9 @@ with open("output_my_titlecase.jsonl", "w") as output_file:
         raw_data = json_stream.load(file)
         for item_stream in raw_data["SurveyFoods"]:
             item = to_standard_types(item_stream)
+            formatted_name = my_titlecase(item['description'])
+            if formatted_name in stupid_foods:
+                continue
             serving_100g = {'name': 'g', 'quantity': 100.0}
             for nutrient in item['foodNutrients']:
                 if nutrient['nutrient']['name'] in macros.keys():
@@ -326,7 +332,7 @@ with open("output_my_titlecase.jsonl", "w") as output_file:
             for serving in servings:
                 unique_servings.add(serving['name'])
 
-            json_line = json.dumps({'name': my_titlecase(item['description']), 'servings': servings})
+            json_line = json.dumps({'name': formatted_name, 'servings': servings})
             output_file.write(json_line + "\n")
             count = count + 1
             if count > 10000:
@@ -336,6 +342,9 @@ with open("output_my_titlecase.jsonl", "w") as output_file:
         raw_data = json_stream.load(file)
         for item_stream in raw_data["BrandedFoods"]:
             item = to_standard_types(item_stream)
+            formatted_name = my_titlecase(item['description'])
+            if formatted_name in stupid_foods:
+                continue
             upc = item['gtinUpc']
             if upc in upc_replacement_servings.keys():
                 item['householdServingFullText'] = upc_replacement_servings[upc]
@@ -393,7 +402,7 @@ with open("output_my_titlecase.jsonl", "w") as output_file:
             for serving in servings:
                 unique_servings.add(serving['name'])
 
-            name = item['description']
+            name = formatted_name
             if 'subbrandName' in item and item['subbrandName'] and item['subbrandName'].lower() not in stupid_brands:
                 if item['subbrandName'].lower() not in name.lower():
                     name = item['subbrandName'] + " " + name
