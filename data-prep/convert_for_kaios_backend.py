@@ -181,6 +181,7 @@ apostrophe_s = re.compile(r"'S")
 whitespace = re.compile(r"\s+")
 acai_berry = re.compile(r"AA BERRY", re.IGNORECASE)
 two_as = re.compile(r"\ba{2}\b", re.IGNORECASE)
+dumb_chars = re.compile(r"[^a-z0-9.,\- %]", re.IGNORECASE)
 
 def my_titlecase(input_string):
     output = input_string
@@ -189,6 +190,19 @@ def my_titlecase(input_string):
     output = re.sub(acai_berry, "Acai Berry", output)
     output = re.sub(two_as, "AA", output)
     return output.strip()
+
+def name_cleaner(input_string):
+    output = input_string
+    output = my_titlecase(output)
+    output = re.sub(dumb_chars, "", output)
+    return output.strip()
+
+def upc_cleaner(input_string, count):
+    output = str(input_string)
+    output = re.sub(r"\D", "", output)
+    while len(output) < 12:
+        output = f"0{output}"
+    return output
 
 def portion_name_post_process(portion_name: str):
     p = portion_name
@@ -285,6 +299,14 @@ def parse_upc_replacement_file(file_path: str):
             line = f.readline()
     return output
 
+def get_search_strings(input_string:str):
+    output = []
+    parts = input_string.split()
+    while len(parts) > 0:
+        output.append(" ".join(parts))
+        parts.pop(0)
+    return output
+
 
 skip_file_servings = parse_skip_servings_file("skip_file.txt")
 write_skip_file("skip_file.txt", skip_file_servings)
@@ -294,12 +316,14 @@ upc_replacement_servings = parse_upc_replacement_file('upc-replacement-file.txt'
 unique_servings = set()
 count = 0
 
-with open("output_my_titlecase.jsonl", "w") as output_file:
+dynamo_search_maps = {}
+
+with open("output_my_titlecase.jsonl", "w") as output_file, open("output_upcs.tsv", "w") as upc_file:
     with open("../data/surveyDownload.json", 'r') as file:
         raw_data = json_stream.load(file)
         for item_stream in raw_data["SurveyFoods"]:
             item = to_standard_types(item_stream)
-            formatted_name = my_titlecase(item['description'])
+            formatted_name = name_cleaner(item['description'])
             if formatted_name in stupid_foods:
                 continue
             serving_100g = {'name': 'g', 'quantity': 100.0}
@@ -334,6 +358,11 @@ with open("output_my_titlecase.jsonl", "w") as output_file:
 
             json_line = json.dumps({'name': formatted_name, 'servings': servings})
             output_file.write(json_line + "\n")
+            upc_file.write(f"{upc_cleaner(count, count)}\t{formatted_name}\n")
+            search_strings = get_search_strings(formatted_name)
+            for ss in search_strings:
+                if ss not in dynamo_search_maps:
+                    dynamo_search_maps[ss] = []
             count = count + 1
             if count > 10000:
                 count = 0
@@ -342,10 +371,10 @@ with open("output_my_titlecase.jsonl", "w") as output_file:
         raw_data = json_stream.load(file)
         for item_stream in raw_data["BrandedFoods"]:
             item = to_standard_types(item_stream)
-            formatted_name = my_titlecase(item['description'])
+            formatted_name = name_cleaner(item['description'])
             if formatted_name in stupid_foods:
                 continue
-            upc = item['gtinUpc']
+            upc = upc_cleaner(item['gtinUpc'], count)
             if upc in upc_replacement_servings.keys():
                 item['householdServingFullText'] = upc_replacement_servings[upc]
             serving_100g = {'name': 'g', 'quantity': 100.0}
@@ -416,12 +445,13 @@ with open("output_my_titlecase.jsonl", "w") as output_file:
             elif 'brandOwner' in item and item['brandOwner'] and item['brandOwner'].lower() not in stupid_brands:
                 if item['brandOwner'].lower() not in name.lower():
                     name = item['brandOwner'] + " " + name
-            name = my_titlecase(name)
+            name = name_cleaner(name)
             for key, value in brand_fixes.items():
                 if key in name:
                     name = name.replace(key, value)
             json_line = json.dumps({'name': name, 'servings': servings, 'upc': upc})
             output_file.write(json_line + "\n")
+            upc_file.write(f"{upc}\t{formatted_name}\n")
             count = count + 1
             if count > 10000:
                 write_servings(unique_servings)
